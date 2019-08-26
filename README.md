@@ -1,2 +1,5 @@
-# BEE2_package
-My personal BEE2.4 package, include severeal items from past BEE addons and mods items
+# Welcome!
+
+in this repo are created, stored and released two packages.
+
+- [Decoration Station]: <github.com/ENDERZOMBI102/BEE2_packages/tree/decoration-station/README.md>
