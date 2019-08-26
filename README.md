@@ -3,3 +3,5 @@
 in this repo are created, stored and released two packages.
 
 - [Decoration Station](https://github.com/ENDERZOMBI102/BEE2_packages/tree/decoration-station/README.md)
+  this package contains varius decorating items, such as the Living Panels or the Radio.
+- [Retro](https://github.com/ENDERZOMBI102/BEE2_packages/tree/retro/README.md)
