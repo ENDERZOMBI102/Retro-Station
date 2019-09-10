@@ -1,0 +1,128 @@
+"Item"
+	{
+		"Filter"	"Niin31"
+		"Author"	"Niin31, Radelite"
+		"ItemClass"	"ItemButtonFloor"
+		"Type"		"ITEM_LASER_CUBE"
+		"Editor"
+		{
+			"SubTypeProperty"		"ButtonType"
+			"SubType"
+			{
+				"Name"			"Laser Cube"
+				"Model"
+				{
+					"ModelName"			"cubelaser.3ds"
+					"TextureName"		"cuberedirection.png"
+				}
+				"Palette"
+				{
+					"Tooltip"		"LASER CUBE"
+					"Image"			"palette/goRetro/lasercube.png"
+					"Position"		"1 0 0"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceCube"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+					"SOUND_DELETED"					"P2Editor.RemoveCube"
+				}
+			}
+			"SubType"
+			{
+				"Name"			"Speed Laser Cube"
+				"Model"
+				{
+					"ModelName"			"cubelaser.3ds"
+					"TextureName"		"cuberedirection.png"
+				}
+				"Palette"
+				{
+					"Tooltip"		"SPEED LASER CUBE"
+					"Image"			"palette/goRetro/Slasercube.png"
+					"Position"		"2 0 0"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceCube"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+					"SOUND_DELETED"					"P2Editor.RemoveCube"
+				}
+			}
+			"SubType"
+			{
+				"Name"			"Bouncing Laser Cube"
+				"Model"
+				{
+					"ModelName"			"cubelaser.3ds"
+					"TextureName"		"cuberedirection.png"
+				}
+				"Palette"
+				{
+					"Tooltip"		"BOUNCING LASER CUBE"
+					"Image"			"palette/goRetro/Blasercube.png"
+					"Position"		"3 0 0"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceCube"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+					"SOUND_DELETED"					"P2Editor.RemoveCube"
+				}
+			}
+			"MovementHandle"		"HANDLE_36_DIRECTIONS"
+			"InvalidSurface"		"CEILING WALL"
+			"DesiredFacing"			"DESIRES_UP"
+			"OccupiesVoxel"			"0"
+		}
+		"Properties"
+		{
+			"ButtonType"
+			{
+				"DefaultValue"	"0"
+				"Index"			"3"
+			}
+		}
+		"Exporting"
+		{
+			"Instances"
+			{
+				"0"
+				{
+					"Name"			"instances/bee2/goRetro/lasercube.vmf"
+					"EntityCount"	"1"
+				}
+				"1"
+				{
+					"Name"			"instances/bee2/goRetro/lasercube.vmf"
+					"EntityCount"	"1"
+				}
+				"2"
+				{
+					"Name"			"instances/bee2/goRetro/lasercubespeed.vmf"
+					"EntityCount"	"1"
+				}
+				"3"
+				{
+					"Name"			"instances/bee2/goRetro/lasercubespeed.vmf"
+					"EntityCount"	"1"
+				}
+				"4"
+				{
+					"Name"			"instances/bee2/goRetro/lasercubebounce.vmf"
+					"EntityCount"	"1"
+				}
+				"5"
+				{
+					"Name"			"instances/bee2/goRetro/lasercubebounce.vmf"
+					"EntityCount"	"1"
+				}
+			}
+
+			"TargetName"		"portalcube"
+			"Offset"		"64 64 64"
+		}
+	}

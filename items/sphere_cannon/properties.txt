@@ -1,0 +1,20 @@
+"Properties"
+{
+	"Authors" "DrFauli"
+	"Tags" "Portal 2;Geometry"
+	"Description"
+	{
+		"" "The button is used to respawn the Sphere Cannon, when the player dropped it into goo."
+		"" ""
+		"" "Sphere cannon controls:"
+		"" "	- left mouse button:  fire a sphere"
+		"" "	- right mouse button: crosshair"
+		"" "	- 'E' (use):	      pick up / drop down "
+	}
+	"infoURL" ""
+	"ent_count" "18"
+	"Icon"
+	{
+		"0" "cannon.png"
+	}
+}

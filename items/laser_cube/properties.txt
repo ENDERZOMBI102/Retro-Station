@@ -1,0 +1,12 @@
+"Properties"
+{
+	"Authors" "Niin31"
+	"Tags" "Portal 2;Geometry"
+	"Description"	"A reflector cube which send a laser. The first is a normal Laser cube, the second have orange gel, and the third is a bouncing laser cube, with blue gel (It can realy use the effect of the gel ONLY if you have paint in your test chamber). The idea is from HallowITE, in his workshop."
+	"infoURL" "https://forums.thinking.withportals.com/topic8853.html"
+	"ent_count" "1"
+	"Icon"
+	{
+		"0" ".png"
+	}
+}

@@ -1,0 +1,38 @@
+"ID" "goRetro"
+"Name" "Retro Package, v0.1"
+"Desc" "This package contains varius things!"
+
+"Item"
+{
+	"ID" "ITEM_LIGHT_BRIDGE_CATCHER"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+	{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+		{
+			"ANY_STYLE" "light_catcher"
+		}
+	}
+}
+
+"Item"
+{
+	"ID" "ITEM_LASER_CUBE"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+	{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+		{
+			"ANY_STYLE" "laser_cube"
+		}
+	}
+}
+
