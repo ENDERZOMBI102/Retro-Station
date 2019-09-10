@@ -11,7 +11,7 @@
 		"" "	- right mouse button: crosshair"
 		"" "	- 'E' (use):	      pick up / drop down "
 	}
-	"infoURL" ""
+	"infoURL" "https://forums.thinking.withportals.com/topic8280.html"
 	"ent_count" "18"
 	"Icon"
 	{

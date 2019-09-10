@@ -36,3 +36,37 @@
 	}
 }
 
+"Item"
+{
+	"ID" "ITEM_SPHERE_CANNON"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+	{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+		{
+			"ANY_STYLE" "sphere_cannon"
+		}
+	}
+}
+
+"Item"
+{
+	"ID" "ITEM_FAITH_CUBE"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+	{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+		{
+			"ANY_STYLE" "faith_cube"
+		}
+	}
+}
+
