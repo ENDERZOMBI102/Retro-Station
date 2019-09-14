@@ -15,6 +15,6 @@
 	"ent_count" "18"
 	"Icon"
 	{
-		"0" "cannon.png"
+		"0" "goRetro/cannon.png"
 	}
 }
