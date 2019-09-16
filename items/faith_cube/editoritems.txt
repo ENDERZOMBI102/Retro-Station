@@ -17,7 +17,7 @@
 				"Palette"
 				{
 					"Tooltip"		"Faith Cube"
-					"Image"			"palette/goRetro/lasercube.png"
+					"Image"			"palette/goRetro/catapultcube64.png"
 					"Position"		"1 0 0"
 				}
 				"Sounds"
