@@ -1,7 +1,7 @@
 "Properties"
 {
 	"Authors" "DrFauli"
-	"Tags" "Portal 2;Geometry"
+	"Tags" "Portal 2"
 	"Description"
 	{
 		"" "The Sphere Cannon is a portable cannon that shoots spheres pretty far."
