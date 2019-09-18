@@ -1,8 +1,12 @@
 "Properties"
 {
 	"Authors" "EriksZeug"
-	"Tags" "Portal 2;Geometry"
-	"Description"	"A cube with build-in faith plate"
+	"Tags" "Portal 2;Test Elements"
+	"Description"
+	{
+		"" "A Cube with built-in Faith Plate."
+		"" "The Cube can still be used on buttons, and the faith plate throws anything it touches up high."
+	}
 	"infoURL" "https://forums.thinking.withportals.com/topic5179.html"
 	"ent_count" "1"
 	"Icon"
