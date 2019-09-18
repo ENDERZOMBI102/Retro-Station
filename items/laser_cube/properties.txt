@@ -11,7 +11,7 @@
 		"" "*Sphere: Repulsion Gel-covered Laser cube"
 		"" ""
 		"" "If there's no Gel on your chamber, the cubes won't have it."
-		"" "The idea is from HallowITE, in his workshop."
+		"" "The idea is from HallowITE, from a level in his workshop."
 
 	}
 	"infoURL" "https://forums.thinking.withportals.com/topic8853.html"
