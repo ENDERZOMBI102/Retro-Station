@@ -7,6 +7,6 @@
 	"ent_count" "36"
 	"Icon"
 	{
-		"0" "lightcatcher.png"
+		"0" "goRetro/lightcatcher.png"
 	}
 }
