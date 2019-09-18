@@ -1,7 +1,7 @@
 "Properties"
 {
 	"Authors" "EriksZeug"
-	"Tags" "Portal 2;Test Elements"
+	"Tags" "Portal 2;Test Elements;Faith Plate"
 	"Description"
 	{
 		"" "A Cube with built-in Faith Plate."
