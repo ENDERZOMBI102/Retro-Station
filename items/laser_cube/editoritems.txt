@@ -18,7 +18,7 @@
 				"Palette"
 				{
 					"Tooltip"		"LASER CUBE"
-					"Image"			"palette/goRetro/lasercube.png"
+					"Image"			"palette/lasercube256.png"
 					"Position"		"1 0 0"
 				}
 				"Sounds"
