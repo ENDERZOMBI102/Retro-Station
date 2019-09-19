@@ -14,7 +14,7 @@
 				"Palette"
 				{
 					"Tooltip"      		"Sphere Cannon"
-					"Image"         	"palette/goRetro/cannon.png"
+					"Image"         	"palette/cannon.png"
 					"Position"      	"3 1 0"					// 2. Zeile, 4. Reihe (line 2, row 4)
 				}
 				"Sounds"
