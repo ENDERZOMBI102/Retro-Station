@@ -1,6 +1,6 @@
-"ID" "goRetro"
+"ID" "GoRetro"
 "Name" "Retro Package, v0.1"
-"Desc" "This package contains varius things!"
+"Desc" "This package contains various things!"
 
 "Item"
 {
