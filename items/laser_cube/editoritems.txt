@@ -35,11 +35,7 @@
 		}
 		"Properties"
 		{
-			"ButtonType"
-			{
-				"DefaultValue"	"0"
-				"Index"			"3"
-			}
+
 		}
 		"Exporting"
 		{
