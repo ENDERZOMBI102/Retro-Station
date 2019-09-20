@@ -6,7 +6,6 @@
 		"Type"		"ITEM_LASER_CUBE"
 		"Editor"
 		{
-			"SubTypeProperty"		"ButtonType"
 			"SubType"
 			{
 				"Name"			"Laser Cube"
@@ -20,50 +19,6 @@
 					"Tooltip"		"LASER CUBE"
 					"Image"			"palette/lasercube256.png"
 					"Position"		"1 0 0"
-				}
-				"Sounds"
-				{
-					"SOUND_CREATED"					"P2Editor.PlaceCube"
-					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
-					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
-					"SOUND_DELETED"					"P2Editor.RemoveCube"
-				}
-			}
-			"SubType"
-			{
-				"Name"			"Speed Laser Cube"
-				"Model"
-				{
-					"ModelName"			"cubelaser.3ds"
-					"TextureName"		"cuberedirection.png"
-				}
-				"Palette"
-				{
-					"Tooltip"		"SPEED LASER CUBE"
-					"Image"			"palette/goRetro/Slasercube.png"
-					"Position"		"2 0 0"
-				}
-				"Sounds"
-				{
-					"SOUND_CREATED"					"P2Editor.PlaceCube"
-					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
-					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
-					"SOUND_DELETED"					"P2Editor.RemoveCube"
-				}
-			}
-			"SubType"
-			{
-				"Name"			"Bouncing Laser Cube"
-				"Model"
-				{
-					"ModelName"			"cubelaser.3ds"
-					"TextureName"		"cuberedirection.png"
-				}
-				"Palette"
-				{
-					"Tooltip"		"BOUNCING LASER CUBE"
-					"Image"			"palette/goRetro/Blasercube.png"
-					"Position"		"3 0 0"
 				}
 				"Sounds"
 				{
