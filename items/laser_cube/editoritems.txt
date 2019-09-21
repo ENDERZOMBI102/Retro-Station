@@ -2,7 +2,7 @@
 	{
 		"Filter"	"Niin31"
 		"Author"	"Niin31, Radelite"
-		"ItemClass"	"ItemButtonFloor"
+		"ItemClass"	"ItemTurret"
 		"Type"		"ITEM_LASER_CUBE"
 		"Editor"
 		{
