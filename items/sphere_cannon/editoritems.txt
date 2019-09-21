@@ -8,8 +8,7 @@
                 "Name"          "Sphere Cannon"
 				"Model"
 				{
-					"ModelName"		"cannon.3ds"
-					"TextureName"	"cannon.png"
+					"ModelName"		"cubesphere_falling.3ds"
 				}
 				"Palette"
 				{
