@@ -5,13 +5,13 @@
 	"Description"
 	{
 		"" "The Sphere Cannon is a portable cannon that shoots spheres pretty far."
+		"" ""
 		"" "When a Sphere is shot the previous one will be fizzled."
+		"" ""
 		"" "The button is used to respawn the Sphere Cannon."
 		"" ""
-		"" "Sphere Cannon Controls:"
-		"" "	- Fire Blue Portal: Fire a Sphere"
-		"" "	- Fire Orange Portal: Charge"
-		"" "	- Use: Pick up / Drop"
+		"" ""
+		"" "The Cannon contains a tutorial in the form of game_text, when you pick it up."
 	}
 	"infoURL" "https://forums.thinking.withportals.com/topic8280.html"
 	"ent_count" "18"
