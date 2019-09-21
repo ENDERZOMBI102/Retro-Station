@@ -33,24 +33,11 @@
 			"DesiredFacing"			"DESIRES_UP"
 			"OccupiesVoxel"			"0"
 		}
-		"Properties"
-		{
-			"ButtonType"
-			{
-				"DefaultValue"	"0"
-				"Index"			"3"
-			}
-		}
 		"Exporting"
 		{
 			"Instances"
 			{
 				"0"
-				{
-					"Name"			"instances/bee2/goRetro/lasercube.vmf"
-					"EntityCount"	"2"
-				}
-				"1"
 				{
 					"Name"			"instances/bee2/goRetro/lasercube.vmf"
 					"EntityCount"	"2"
