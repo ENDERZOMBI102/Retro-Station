@@ -33,14 +33,6 @@
 			"DesiredFacing"			"DESIRES_UP"
 			"OccupiesVoxel"			"0"
 		}
-		"Properties"
-		{
-			"ButtonType"
-			{
-				"DefaultValue"	"0"
-				"Index"			"3"
-			}
-		}
 		"Exporting"
 		{
 			"Instances"
