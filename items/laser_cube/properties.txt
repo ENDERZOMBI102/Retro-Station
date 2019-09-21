@@ -5,17 +5,15 @@
 	"Description"
 	{
 		"" "A Reflector Cube that has an Laser Emitter."
-		"" "The Reflector property of the Cube doesn't work since it already has a Laser."
-		"" "*Weighted: Laser Cube"
-		"" "*Cube: Propulsion Gel-covered Laser Cube"
-		"" "*Sphere: Repulsion Gel-covered Laser Cube"
 		"" ""
-		"" "If there's no Gel on your chamber, the cubes won't have it."
+		"" "The Reflector property of the Cube doesn't work since it already has a Laser."
+		"" ""
+		"" ""
 		"" "The idea is from HallowITE, from a level in his workshop."
 
 	}
 	"infoURL" "https://forums.thinking.withportals.com/topic8853.html"
-	"ent_count" "1"
+	"ent_count" "2"
 	"Icon"
 	{
 		"0" "goRetro/lasercube64.png"
