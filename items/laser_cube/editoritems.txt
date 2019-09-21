@@ -1,0 +1,63 @@
+"Item"
+	{
+		"Filter"	"Niin31"
+		"Author"	"Niin31, Radelite"
+		"ItemClass"	"ItemButtonFloor"
+		"Type"		"ITEM_LASER_CUBE"
+		"Editor"
+		{
+			"SubType"
+			{
+				"Name"			"Laser Cube"
+				"Model"
+				{
+					"ModelName"			"cubelaser.3ds"
+					"TextureName"		"cuberedirection.png"
+				}
+				"Palette"
+				{
+					"Tooltip"		"Laser Cube"
+					"Image"			"palette/lasercube256.png"
+					"Position"		"1 0 0"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceCube"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+					"SOUND_DELETED"					"P2Editor.RemoveCube"
+				}
+			}
+			"MovementHandle"		"HANDLE_36_DIRECTIONS"
+			"InvalidSurface"		"CEILING WALL"
+			"DesiredFacing"			"DESIRES_UP"
+			"OccupiesVoxel"			"0"
+		}
+		"Properties"
+		{
+			"ButtonType"
+			{
+				"DefaultValue"	"0"
+				"Index"			"3"
+			}
+		}
+		"Exporting"
+		{
+			"Instances"
+			{
+				"0"
+				{
+					"Name"			"instances/bee2/goRetro/lasercube.vmf"
+					"EntityCount"	"2"
+				}
+				"1"
+				{
+					"Name"			"instances/bee2/goRetro/lasercube.vmf"
+					"EntityCount"	"2"
+				}
+			}
+
+			"TargetName"		"portalcube"
+			"Offset"		"64 64 64"
+		}
+	}
