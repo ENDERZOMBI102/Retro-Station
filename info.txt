@@ -65,7 +65,7 @@
 		"Name" "Regular"
 		"Styles"
 		{
-			"ANY_STYLE" "faith_cube"
+			"ANY_STYLE" "faith_cube_clean"
 		}
 	}
 }
