@@ -1,6 +1,6 @@
 "ID" "GoRetro"
-"Name" "Retro Package, v0.1"
-"Desc" "This package contains various things!"
+"Name" "Retro Package"
+"Desc" "This package adds some old stuff from the old TWP.com forums!"
 
 "Item"
 {
