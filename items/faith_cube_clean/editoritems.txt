@@ -38,8 +38,8 @@
 			{
 				"0"
 				{
-					"Name"			"instances/bee2/clean/catapult_cube.vmf"
-					"EntityCount"	"1"
+					"Name"			"instances/bee2/clean/items/goRetro/catapult_cube.vmf"
+					"EntityCount"	"3"
 				}
 			}
 
