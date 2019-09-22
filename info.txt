@@ -14,7 +14,7 @@
 		"Name" "Regular"
 		"Styles"
 		{
-			"ANY_STYLE" "light_catcher"
+			"ANY_STYLE" "clean/light_catcher"
 		}
 	}
 }
@@ -31,7 +31,7 @@
 		"Name" "Regular"
 		"Styles"
 		{
-			"ANY_STYLE" "laser_cube"
+			"ANY_STYLE" "clean/laser_cube"
 		}
 	}
 }
@@ -48,7 +48,7 @@
 		"Name" "Regular"
 		"Styles"
 		{
-			"ANY_STYLE" "sphere_cannon"
+			"ANY_STYLE" "clean/sphere_cannon"
 		}
 	}
 }
@@ -65,7 +65,7 @@
 		"Name" "Regular"
 		"Styles"
 		{
-			"ANY_STYLE" "faith_cube_clean"
+			"ANY_STYLE" "clean/faith_cube_clean"
 		}
 	}
 }
