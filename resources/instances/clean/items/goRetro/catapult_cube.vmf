@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "5454"
-	"mapversion" "54"
+	"editorbuild" "7552"
+	"mapversion" "55"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "54"
+	"mapversion" "55"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -346,7 +346,7 @@ entity
 	"HoldAnimation" "1"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
-	"model" "models/erikszeug/gameplay/sprungkubus.mdl"
+	"model" "models/erikszeug/faithcube.mdl"
 	"parentname" "Kubus"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"

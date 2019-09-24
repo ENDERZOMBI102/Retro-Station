@@ -1,0 +1,49 @@
+"Item"
+	{
+		"Filter"	"cubes"
+		"Author"	"EriksZeug"
+		"ItemClass"	"ItemButtonFloor"
+		"Type"		"ITEM_FAITH_CUBE"
+		"Editor"
+		{
+			"SubType"
+			{
+				"Name"			"Faith Cube"
+				"Model"
+				{
+					"ModelName"			"cubecompanion_falling.3ds"
+				}
+				"Palette"
+				{
+					"Tooltip"		"Faith Cube"
+					"Image"			"palette/catapultcube256.png"
+					"Position"		"1 0 0"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceCube"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+					"SOUND_DELETED"					"P2Editor.RemoveCube"
+				}
+			}
+			"MovementHandle"		"HANDLE_36_DIRECTIONS"
+			"InvalidSurface"		"CEILING WALL"
+			"DesiredFacing"			"DESIRES_UP"
+			"OccupiesVoxel"			"0"
+		}
+		"Exporting"
+		{
+			"Instances"
+			{
+				"0"
+				{
+					"Name"			"instances/bee2/clean/items/goRetro/catapult_cube.vmf"
+					"EntityCount"	"3"
+				}
+			}
+
+			"TargetName"		"portalcube"
+			"Offset"		"64 64 64"
+		}
+	}
