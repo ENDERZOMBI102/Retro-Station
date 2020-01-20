@@ -36,7 +36,7 @@
 			{
 				"0"
 				{
-					"Name"				"instances/BEE2/goRetro/lightcatcher_test.vmf"
+					"Name"				"instances/BEE2/goRetro/lightcatcher.vmf"
 					"EntityCount"		"36"
 				}
 			}

@@ -11,7 +11,8 @@
 				"Name"			"Faith Cube"
 				"Model"
 				{
-					"ModelName"			"cubecompanion_falling.3ds"
+					"ModelName"			"models\bee2\EriksZeug\Gameplay\sprungkubus.mdl"
+					"TextureName"		"cube.png"
 				}
 				"Palette"
 				{
@@ -38,8 +39,8 @@
 			{
 				"0"
 				{
-					"Name"			"instances/bee2/clean/items/goRetro/catapult_cube.vmf"
-					"EntityCount"	"3"
+					"Name"			"instances/bee2/goRetro/catapult_cube.vmf"
+					"EntityCount"	"1"
 				}
 			}
 

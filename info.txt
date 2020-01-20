@@ -1,6 +1,6 @@
 "ID" "GoRetro"
-"Name" "Retro Package"
-"Desc" "This package adds some old stuff from the old TWP.com forums!"
+"Name" "Retro Package, v0.1"
+"Desc" "This package contains various things!"
 
 "Item"
 {
@@ -14,7 +14,7 @@
 		"Name" "Regular"
 		"Styles"
 		{
-			"ANY_STYLE" "clean/light_catcher"
+			"ANY_STYLE" "light_catcher"
 		}
 	}
 }
@@ -31,7 +31,7 @@
 		"Name" "Regular"
 		"Styles"
 		{
-			"ANY_STYLE" "clean/laser_cube"
+			"ANY_STYLE" "laser_cube"
 		}
 	}
 }
@@ -48,7 +48,7 @@
 		"Name" "Regular"
 		"Styles"
 		{
-			"ANY_STYLE" "clean/sphere_cannon"
+			"ANY_STYLE" "sphere_cannon"
 		}
 	}
 }
@@ -65,7 +65,7 @@
 		"Name" "Regular"
 		"Styles"
 		{
-			"ANY_STYLE" "clean/faith_cube"
+			"ANY_STYLE" "faith_cube"
 		}
 	}
 }
