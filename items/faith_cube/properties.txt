@@ -12,6 +12,6 @@
 	"ent_count" "13"
 	"Icon"
 	{
-		"0" "goRetro/catapultcube64.png"
+		"0" "clean/catapultcube.png"
 	}
 }

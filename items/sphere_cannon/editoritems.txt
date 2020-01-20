@@ -12,8 +12,8 @@
 				}
 				"Palette"
 				{
-					"Tooltip"      		"Sphere Cannon"
-					"Image"         	"palette/cannon.png"
+					"Tooltip"      		"SPHERE CANNON"
+					"Image"         	"palette/clean/cannon.png"
 					"Position"      	"3 1 0"					// 2. Zeile, 4. Reihe (line 2, row 4)
 				}
 				"Sounds"
@@ -26,7 +26,6 @@
 			}	
 			"MovementHandle"    		"HANDLE_4_DIRECTIONS"
 			"InvalidSurface"			"CEILING WALL"
-			"OccupiesVoxel"     		"0"
 		}
 		"Exporting"
 		{
@@ -34,7 +33,7 @@
 			{
 				"0"
 				{
-					"Name"         		"instances/bee2/goRetro/sphere_cannon.vmf"
+					"Name"         		"instances/bee2/clean/items/goRetro/sphere_cannon.vmf"
 					"EntityCount"       "18"
 					"BrushCount"        "16"
 					"BrushSideCount"    "96"

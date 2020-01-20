@@ -15,6 +15,6 @@
 	"ent_count" "2"
 	"Icon"
 	{
-		"0" "goRetro/lasercube64.png"
+		"0" "clean/lasercube.png"
 	}
 }

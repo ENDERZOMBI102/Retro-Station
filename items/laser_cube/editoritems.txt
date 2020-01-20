@@ -12,12 +12,11 @@
 				"Model"
 				{
 					"ModelName"			"cubelaser.3ds"
-					"TextureName"		"cuberedirection.png"
 				}
 				"Palette"
 				{
-					"Tooltip"		"Laser Cube"
-					"Image"			"palette/lasercube256.png"
+					"Tooltip"		"LASER CUBE"
+					"Image"			"palette/clean/lasercube.png"
 					"Position"		"1 0 0"
 				}
 				"Sounds"
@@ -30,8 +29,6 @@
 			}
 			"MovementHandle"		"HANDLE_36_DIRECTIONS"
 			"InvalidSurface"		"CEILING WALL"
-			"DesiredFacing"			"DESIRES_UP"
-			"OccupiesVoxel"			"0"
 		}
 		"Exporting"
 		{
@@ -39,12 +36,42 @@
 			{
 				"0"
 				{
-					"Name"			"instances/bee2/goRetro/lasercube.vmf"
+					"Name"			"instances/bee2/clean/items/goRetro/lasercube.vmf"
 					"EntityCount"	"2"
 				}
 			}
 
 			"TargetName"		"portalcube"
 			"Offset"		"64 64 64"
+			"OccupiedVoxels"
+			{
+				"Voxel"
+				{
+					"Pos"		"0 0 0"
+					"Surface"
+					{
+						"Pos"	"1 1 0"
+					}
+					"Surface"
+					{
+						"Pos"	"1 2 0"
+					}
+					"Surface"
+					{
+						"Pos"	"2 1 0"
+					}
+					"Surface"
+					{
+						"Pos"	"2 2 0"
+					}
+				}
+			}
+			"EmbeddedVoxels"
+			{
+				"Voxel"
+				{
+					"Pos"		"0 0 0"
+				}
+			}
 		}
 	}

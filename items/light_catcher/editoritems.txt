@@ -11,12 +11,11 @@
 				"Model"
 				{
 					"ModelName"			"bridge.3ds"
-					"TextureName"		"lightbridgeemitter.png"
 				}
 				"Palette"
 				{
-					"Tooltip"	"Light Bridge Catcher"
-					"Image"		"palette/lightcatcher.png"
+					"Tooltip"	"LIGHT BRIDGE CATCHER"
+					"Image"		"palette/clean/lightcatcher.png"
 					"Position"	"0 0 0"
 				}
 				"Sounds"
@@ -36,7 +35,7 @@
 			{
 				"0"
 				{
-					"Name"				"instances/BEE2/goRetro/lightcatcher.vmf"
+					"Name"				"instances/BEE2/clean/items/goRetro/lightcatcher.vmf"
 					"EntityCount"		"36"
 				}
 			}
