@@ -6,7 +6,7 @@
 	{
 		"" "A Cube with built-in Faith Plate."
 		"" ""
-		"" "The Cube can still be used on buttons, and the faith plate throws anything it touches around 2 panels."
+		"" "The Cube can still be used on buttons, and the faith plate throws anything it touches up about 128 units (2 Panels)."
 	}
 	"infoURL" "https://forums.thinking.withportals.com/topic5179.html"
 	"ent_count" "13"

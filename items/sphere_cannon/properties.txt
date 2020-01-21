@@ -10,7 +10,6 @@
 		"" ""
 		"" "The button is used to respawn the Sphere Cannon."
 		"" ""
-		"" ""
 		"" "The Cannon contains a tutorial in the form of game_text, when you pick it up."
 	}
 	"infoURL" "https://forums.thinking.withportals.com/topic8280.html"
