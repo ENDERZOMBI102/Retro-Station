@@ -1,0 +1,20 @@
+"Properties"
+{
+	"Authors" "Niin31, Flash4433"
+	"Tags" "Portal 2;Test Elements"
+	"Description"
+	{
+		"" "A Reflector Cube that has an Laser Emitter."
+		"" ""
+		"" "Unfortunately it's impossible to make it always face ahead, as that property is exclusive to the original reflection cube."
+		"" ""
+		"" "The idea is from HallowITE, from a level in his workshop."
+
+	}
+	"infoURL" "https://forums.thinking.withportals.com/topic8853.html"
+	"ent_count" "2"
+	"Icon"
+	{
+		"0" "clean/lasercube.png"
+	}
+}

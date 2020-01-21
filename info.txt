@@ -1,0 +1,72 @@
+"ID" "GoRetro"
+"Name" "Retro Package, v0.1"
+"Desc" "This package contains various things!"
+
+"Item"
+{
+	"ID" "ITEM_LIGHT_BRIDGE_CATCHER"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+	{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+		{
+			"ANY_STYLE" "light_catcher"
+		}
+	}
+}
+
+"Item"
+{
+	"ID" "ITEM_LASER_CUBE"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+	{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+		{
+			"ANY_STYLE" "laser_cube"
+		}
+	}
+}
+
+"Item"
+{
+	"ID" "ITEM_SPHERE_CANNON"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+	{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+		{
+			"ANY_STYLE" "sphere_cannon"
+		}
+	}
+}
+
+"Item"
+{
+	"ID" "ITEM_FAITH_CUBE"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+	{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+		{
+			"ANY_STYLE" "faith_cube"
+		}
+	}
+}
+

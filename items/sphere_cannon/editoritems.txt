@@ -1,0 +1,68 @@
+"Item"
+    {
+        "Type"     				"ITEM_SPHERE_CANNON"
+        "Editor"
+        {
+            "SubType"
+            {	
+                "Name"          "Sphere Cannon"
+				"Model"
+				{
+					"ModelName"		"cubesphere_falling.3ds"
+				}
+				"Palette"
+				{
+					"Tooltip"      		"SPHERE CANNON"
+					"Image"         	"palette/clean/cannon.png"
+					"Position"      	"3 1 0"					// 2. Zeile, 4. Reihe (line 2, row 4)
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"            "P2Editor.PlaceOther"
+					"SOUND_EDITING_ACTIVATE"   "P2Editor.ExpandOther"
+					"SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
+					"SOUND_DELETED"            "P2Editor.RemoveOther"
+				}
+			}	
+			"MovementHandle"    		"HANDLE_4_DIRECTIONS"
+			"InvalidSurface"			"CEILING WALL"
+		}
+		"Exporting"
+		{
+			"Instances"
+			{
+				"0"
+				{
+					"Name"         		"instances/bee2/clean/items/goRetro/sphere_cannon.vmf"
+					"EntityCount"       "18"
+					"BrushCount"        "16"
+					"BrushSideCount"    "96"
+				}
+			}
+			"Offset"            		"64 64 64"
+			"TargetName"        		"sphere_cannon"
+			"OccupiedVoxels"
+			{
+				"Voxel"							// Cannon
+				{
+					"Pos"               	"0 0 0"
+					"CollideType"       	"COLLIDE_SOLID"
+					"CollideAgainst"    	"COLLIDE_SOLID"
+					"Surface"
+					{
+                        "Normal"    		"0 0 1"
+					}
+				}
+				"Voxel"							// Button
+				{
+                    "Pos"              	"1 0 0"
+					"CollideType"       "COLLIDE_SOLID"
+					"CollideAgainst"    "COLLIDE_SOLID"
+					"Surface"
+					{
+						"Normal"	"0 0 1"
+					}
+				}
+			}
+		}
+	}	

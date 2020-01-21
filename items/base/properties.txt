@@ -1,0 +1,12 @@
+"Properties"
+{
+	"Authors" ""
+	"Tags" "Portal 2;Geometry"
+	"Description"	""
+	"infoURL" ""
+	"ent_count" ""
+	"Icon"
+	{
+		"0" ".png"
+	}
+}
