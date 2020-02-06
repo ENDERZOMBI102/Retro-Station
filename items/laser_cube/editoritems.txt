@@ -1,7 +1,5 @@
 "Item"
 	{
-		"Filter"	"Niin31"
-		"Author"	"Niin31, Radelite"
 		"ItemClass"	"ItemTurret"
 		"Type"		"ITEM_LASER_CUBE"
 		"Editor"

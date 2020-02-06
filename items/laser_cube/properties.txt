@@ -1,6 +1,6 @@
 "Properties"
 {
-	"Authors" "Niin31, Flash4433"
+	"Authors" "Niin31, Radelite, Flash4433"
 	"Tags" "Portal 2;Test Elements"
 	"Description"
 	{

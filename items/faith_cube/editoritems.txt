@@ -1,7 +1,5 @@
 "Item"
 	{
-		"Filter"	"cubes"
-		"Author"	"EriksZeug"
 		"ItemClass"	"ItemButtonFloor"
 		"Type"		"ITEM_FAITH_CUBE"
 		"Editor"
@@ -11,7 +9,7 @@
 				"Name"			"Faith Cube"
 				"Model"
 				{
-					"ModelName"			"models\bee2\EriksZeug\Gameplay\sprungkubus.mdl"
+					"ModelName"			"cubecompanion.3ds"
 				}
 				"Palette"
 				{

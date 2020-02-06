@@ -1,8 +1,6 @@
 "Item"
 	{
 		"Type"		"ITEM_LIGHT_BRIDGE_CATCHER"
-		"Filter"		"mironos Light collection"
-		"Author"		"mironos"
 		"Editor"
 		{
 			"SubType"
