@@ -6,8 +6,6 @@
 	{
 		"" "A Reflector Cube that has an Laser Emitter."
 		"" ""
-		"" "Unfortunately it's impossible to make it always face ahead, as that property is exclusive to the original reflection cube."
-		"" ""
 		"" "The idea is from HallowITE, from a level in his workshop."
 
 	}

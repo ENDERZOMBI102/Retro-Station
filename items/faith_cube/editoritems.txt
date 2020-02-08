@@ -28,6 +28,24 @@
 			"MovementHandle"		"HANDLE_36_DIRECTIONS"
 			"InvalidSurface"		"CEILING WALL"
 		}
+		"Properties"
+		{
+			"DropperEnabled"
+			{
+				"DefaultValue"	"1"
+				"Index"		"4"
+			}
+			"AutoRespawn"
+			{
+				"DefaultValue"  "1"
+				"Index"         "2"
+			}
+			"AutoDrop"
+			{
+				"DefaultValue"  "1"
+				"Index"         "3"
+			}
+		}
 		"Exporting"
 		{
 			"Instances"
@@ -35,7 +53,7 @@
 				"0"
 				{
 					"Name"			"instances/bee2/clean/items/goRetro/catapult_cube.vmf"
-					"EntityCount"	"1"
+					"EntityCount"	"11"
 				}
 			}
 
