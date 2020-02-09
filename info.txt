@@ -65,3 +65,15 @@
 	}
 }
 
+"Item"
+{
+	"ID" "ITEM_COOP_GATES"
+	"Version"
+	{
+		"Styles"
+		{
+			"ANY_STYLE" "coop_gates"
+		}
+	}
+}
+

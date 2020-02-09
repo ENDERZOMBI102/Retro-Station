@@ -1,0 +1,12 @@
+"Properties"
+{
+	"Authors" "Pusher71"
+	"Tags" "Portal 2;Geometry"
+	"Description"	"gates that let pass only the corrisponding bot blue => atlas orange => p-body"
+	"infoURL" "https://forums.thinking.withportals.com/downloads.php?view=detail&df_id=3320"
+	"ent_count" ""
+	"Icon"
+	{
+		"0" ".png"
+	}
+}
