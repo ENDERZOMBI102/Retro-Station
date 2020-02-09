@@ -1,0 +1,176 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8419"
+	"mapversion" "37"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "4"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "37"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"paintinmap" "1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "73"
+	"classname" "info_paint_sprayer"
+	"AmbientSound" "2"
+	"angles" "0 0 0"
+	"blob_spread_angle" "0"
+	"blob_spread_radius" "0"
+	"blob_streak_percentage" "0"
+	"blobs_per_second" "10"
+	"DrawOnly" "0"
+	"max_speed" "150"
+	"max_streak_speed_dampen" "1000"
+	"max_streak_time" "0.5"
+	"maxblobcount" "250"
+	"min_speed" "150"
+	"min_streak_speed_dampen" "500"
+	"min_streak_time" "0.2"
+	"PaintType" "4"
+	"parentname" "box"
+	"RenderMode" "0"
+	"silent" "0"
+	"start_active" "0"
+	"targetname" "sprayer2"
+	"origin" "28 0 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "88"
+	"classname" "info_paint_sprayer"
+	"AmbientSound" "2"
+	"angles" "0 0 0"
+	"blob_spread_angle" "0"
+	"blob_spread_radius" "0"
+	"blob_streak_percentage" "0"
+	"blobs_per_second" "10"
+	"DrawOnly" "0"
+	"max_speed" "150"
+	"max_streak_speed_dampen" "1000"
+	"max_streak_time" "0.5"
+	"maxblobcount" "250"
+	"min_speed" "150"
+	"min_streak_speed_dampen" "500"
+	"min_streak_time" "0.2"
+	"PaintType" "0"
+	"parentname" "box"
+	"RenderMode" "0"
+	"silent" "0"
+	"start_active" "0"
+	"targetname" "sprayer1"
+	"origin" "28 0 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "96"
+	"classname" "game_ui"
+	"FieldOfView" "-1.0"
+	"spawnflags" "0"
+	"targetname" "ui"
+	connections
+	{
+		"PressedAttack" "sprayer1Start0-1"
+		"UnpressedAttack" "sprayer1Stop0-1"
+		"PressedAttack2" "sprayer2Start0-1"
+		"UnpressedAttack2" "sprayer2Stop0-1"
+	}
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_weighted_cube"
+	"allowfunnel" "1"
+	"angles" "0 0 0"
+	"CubeType" "2"
+	"drawinfastreflection" "0"
+	"NewSkins" "1"
+	"PaintPower" "4"
+	"rendercolor" "100 100 255"
+	"skin" "3"
+	"SkinType" "0"
+	"targetname" "box"
+	connections
+	{
+		"OnUser1" "!selfDissolve0-1"
+		"OnPlayerPickup" "uiActivate0-1"
+		"OnPhysGunDrop" "uiDeactivate0-1"
+	}
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "22"
+	"classname" "point_template"
+	"spawnflags" "0"
+	"targetname" "@bounce_cube"
+	"Template01" "box"
+	"Template02" "ui"
+	"Template03" "sprayer1"
+	"Template04" "sprayer2"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

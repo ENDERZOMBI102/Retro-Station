@@ -33,7 +33,7 @@
 				}
 			}
 			"MovementHandle"		"HANDLE_4_DIRECTIONS"
-			"InvalidSurface"		"WALL FLOOR"
+			"InvalidSurface"		"FLOOR"
 			"DesiredFacing"			"DESIRES_UP"
 		}
 		"Properties"
