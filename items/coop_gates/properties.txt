@@ -1,12 +1,23 @@
 "Properties"
 {
-	"Authors" "Pusher71"
-	"Tags" "Portal 2;Geometry"
-	"Description"	"gates that let pass only the corrisponding bot blue => atlas orange => p-body"
-	"infoURL" "https://forums.thinking.withportals.com/downloads.php?view=detail&df_id=3320"
-	"ent_count" ""
+	"Authors"		"Pusher71, Flash4433"
+	"Tags" 			"Portal 2; Test Elements; Fizzlers"
+	"Description"	
+	{
+		"" "Pair of emitters that only let the corresponding co-op player pass. The opposite player explodes on contact."
+		"" ""
+		"" "* Fizzler - Blue Bot, AtLAS"
+		"" "* Laserfield - Orange Bot, P-Body"
+		"" "* Single-Player - Kills the player."
+	}
+	"infoURL" 		"https://forums.thinking.withportals.com/downloads.php?view=detail&df_id=3320"
+	"ent_count"     "4 +\nFizz: 3 per row\nLas: 4 per row"
+	"all_name"		"CO-OP GATES"
+	"all_icon"		"palette/grouped/coop_gates.png"
 	"Icon"
 	{
-		"0" ".png"
+		"all"	"clean/coop_gates.png"
+		"0"		"clean/coop_gatea.png"
+		"1"		"clean/coop_gateb.png"
 	}
 }
