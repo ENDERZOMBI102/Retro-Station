@@ -1,0 +1,20 @@
+"Properties"
+{
+	"Authors" "Flash4433"
+	"Tags" "Portal 2"
+	"Description"
+	{
+		"" "A Incinerator. Kills any cube that falls through it, except Companion Cubes. Probably."
+		"" ""
+		"" "* The Player can't jump inside of the incinerator."
+		"" "* Anything that enters it will be killed, and respawned if possible."
+		"" "* If a Companion Cube falls inside of it, the Incinerator will close and output."
+		"" "* If **Start Reversed** is checked, the Companion Cube will respawn, or else it will be stuck down there forever."
+	}
+	"infoURL" "none"
+	"ent_count" "6"
+	"Icon"
+	{
+		"0" "clean/incinerator.png"
+	}
+}

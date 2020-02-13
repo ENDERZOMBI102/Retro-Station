@@ -77,3 +77,14 @@
 	}
 }
 
+"Item"
+{
+	"ID" "ITEM_INCINERATOR"
+	"Version"
+	{
+		"Styles"
+		{
+			"ANY_STYLE" "incinerator_over"
+		}
+	}
+}
