@@ -1,6 +1,6 @@
 "ID" "GoRetro"
 "Name" "Retro Package"
-"Desc" "Remake of old items, like Faith Cube, Light Bridge Catcher and Bomb Dropper."
+"Desc" "Remake of old and new items, like Faith Cube, Light Bridge Catcher and Bomb Dropper."
 "Prerequisites"
 {
 	"Package" "VALVE_TEST_ELEM"
