@@ -17,7 +17,7 @@
 	"Icon"
 	{
 		"all"	"clean/coop_gates.png"
-		"0"		"clean/coop_gatea.png"
-		"1"		"clean/coop_gateb.png"
+		"0"		"clean/blue_coop_gate.png"
+		"1"		"clean/orange_coop_gate.png"
 	}
 }
