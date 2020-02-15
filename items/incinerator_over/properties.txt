@@ -11,7 +11,6 @@
 		"" "* If a Companion Cube falls inside of it, the Incinerator will close and output."
 		"" "* If **Start Reversed** is checked, the Companion Cube will respawn, or else it will be stuck down there forever."
 	}
-	"infoURL" "none"
 	"ent_count" "6"
 	"Icon"
 	{

@@ -6,7 +6,6 @@
 	{
 		"" "Drops explosive bombs when triggered. Do not confuse it with a cube dropper."
 	}
-	"infoURL" "none"
 	"ent_count" "6"
 	"Icon"
 	{
