@@ -15,7 +15,7 @@
 			"Palette"
 			{
 				"Tooltip"		"COOP GATES"
-				"Image"			"palette/clean/blue_coop_gates.png"
+				"Image"			"palette/clean/blue_coop_gate.png"
 				"Position"		"1 0 0"
 			}
 			"Sounds"
@@ -36,7 +36,7 @@
 			"Palette"
 			{
 				"Tooltip"		"COOP GATES"
-				"Image"			"palette/clean/orange_coop_gates.png"
+				"Image"			"palette/clean/orange_coop_gate.png"
 				"Position"		"1 0 0"
 			}
 		}
