@@ -4,7 +4,21 @@
 "Prerequisites"
 {
 	"Package" "VALVE_TEST_ELEM"
+	"Package"	"BEE2_CLEAN_STYLE"
 }
+
+"Item"
+	{
+	"ID" "ITEM_TNT_TURRET"
+	"all_conf"	"tnt_turret"
+	"Version"
+		{
+		"Styles"
+			{
+			"ANY_STYLE"	"tnt_turret"
+			}
+		}
+	}
 "Item"
 {
 	"ID" "ITEM_LIGHT_BRIDGE_CATCHER"
