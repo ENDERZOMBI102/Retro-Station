@@ -1,0 +1,18 @@
+"Properties"
+	{
+	"Authors" "Libbybapa"
+	"Tags" "Jail Bars"
+	"Description"
+		{
+		"" "This Jail Bars item will let the player pass through, but prevent cubes from passing.  They are similar in function to a static Pysics Repulsion Field (green)."
+		"" ""
+		"" "* __Start Enabled__ unchecked will make it so that a gap is centered on the voxel or checked will make it so a bar is centered."
+		"" "* __Start Open__ unchecked will make it so the bars are at the outer edge of the voxel, checked will have them centered in the voxel."
+		"" "* __Cube Type__ will change the height of the bars from 1 through 5 voxels high."  
+		}
+		"ent_count" "2"
+		"Icon"
+		{
+		"0" "clean/jail_bars.png"
+		}
+	}

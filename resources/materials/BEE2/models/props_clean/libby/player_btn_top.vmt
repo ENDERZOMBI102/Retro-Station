@@ -1,0 +1,5 @@
+VertexlitGeneric
+{
+$basetexture "BEE2/models/props_clean/libby/player_btn_top"
+$selfillum 1
+}

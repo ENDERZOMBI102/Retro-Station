@@ -88,3 +88,42 @@
 		}
 	}
 }
+
+"Item"
+	{
+	"ID" "ITEM_JAIL_BARS"
+	"Version"
+		{
+		"Styles"
+			{
+			"ANY_STYLE" "jail_bars"
+			}
+		}
+	}
+
+"BrushTemplate"
+	{
+	"ID" "TEMP_JAIL_BARS"
+	"File" "jail_bars.vmf"
+	}
+
+"Prerequisites"
+	{
+	"Package"	"BEE2_CLEAN_STYLE"
+	}
+"Item"
+	{
+	"ID" "ITEM_PLAYER_BUTTON"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"		"player_button"
+			}
+		}
+	}
+"BrushTemplate"
+	{
+	"ID"    "TEMP_PLAYER_BUTTON"
+	"file"  "player_base.vmf"
+	}

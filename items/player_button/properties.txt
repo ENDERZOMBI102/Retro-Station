@@ -1,0 +1,16 @@
+"Properties"
+	{
+	"Authors"		"Valve, Libbybapa"
+	"Tags"			"Portal 2; Test Elements"
+	"Description"
+		{
+		"" "Player-only button."  
+		}
+	"Ent_count"     "2"
+		"Icon"
+		{
+		"0"		"clean/player_button.png"
+		}
+	}
+
+	
