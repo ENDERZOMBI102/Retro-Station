@@ -1,0 +1,11 @@
+"Properties"
+	{
+	"Authors"		"PsychoBR, Felix Griffin, Flash4433"
+	"Tags"			"Portal 2;Test Elements"
+	"Description"	"Stationary turrets used for area denial, that explode after being knocked over."
+	"Ent_count"     "20"
+	"Icon"
+		{
+			"0"	"clean/redturret.png"
+		}
+	}
