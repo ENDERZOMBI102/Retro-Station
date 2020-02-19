@@ -141,3 +141,20 @@
 	"ID"    "TEMP_PLAYER_BUTTON"
 	"file"  "player_base.vmf"
 	}
+
+"Overrides"
+{
+	"Item"
+	{
+		"ID" "ITEM_TURRET"
+		"Version"
+		{
+			"ID"	"VER_HL2_TURRET"
+			"Name"	"Half-Life 2 - Combine Turret"
+			"Styles"
+			{
+				"ANY_STYLE" "tnt_turret"
+			}
+		}
+	}
+}
