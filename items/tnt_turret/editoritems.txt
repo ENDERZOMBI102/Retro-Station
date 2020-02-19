@@ -4,6 +4,7 @@
 		"ItemClass"	"ItemTurret"
 		"Editor"
 		{
+			"SubTypeProperty" "CubeType"
 			"SubType"
 			{
 				"Name"		"TNT Turret"
@@ -25,9 +26,77 @@
 					"SOUND_DELETED"					"P2Editor.RemoveTurret"
 				}
 			}
+			"SubType"
+			{
+				"Name"		"TNT Turret"
+				"Model"
+				{
+					"ModelName"		"redsentry.3ds"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceTurret"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandTurret"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseTurret"
+					"SOUND_DELETED"					"P2Editor.RemoveTurret"
+				}
+			}
+			"SubType"
+			{
+				"Name"		"TNT Turret"
+				"Model"
+				{
+					"ModelName"		"redsentry.3ds"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceTurret"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandTurret"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseTurret"
+					"SOUND_DELETED"					"P2Editor.RemoveTurret"
+				}
+			}
+			"SubType"
+			{
+				"Name"		"TNT Turret"
+				"Model"
+				{
+					"ModelName"		"redsentry.3ds"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceTurret"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandTurret"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseTurret"
+					"SOUND_DELETED"					"P2Editor.RemoveTurret"
+				}
+			}
+			"SubType"
+			{
+				"Name"		"TNT Turret"
+				"Model"
+				{
+					"ModelName"		"redsentry.3ds"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceTurret"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandTurret"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseTurret"
+					"SOUND_DELETED"					"P2Editor.RemoveTurret"
+				}
+			}
 			"MovementHandle"		"HANDLE_36_DIRECTIONS"
 			"InvalidSurface"		"CEILING WALL"
-			"CanAnchorOnBarriers"		"1"
+			"CanAnchorOnBarriers"	"1"
+		}
+		"Properties"
+		{
+		"CubeType"
+			{
+			"DefaultValue" "0"
+			"Index"        "1"
+			}
 		}
 		"Exporting"
 		{
@@ -35,8 +104,28 @@
 			{
 				"0"
 				{
-					"Name"			"instances/BEE2/clean/items/goRetro/tnt_turret.vmf"
-					"EntityCount"	"20"
+					"Name"			"instances/BEE2/clean/items/goRetro/tnt_turret/tnt_turret_03.vmf"
+					"EntityCount"	"5"
+				}
+				"1"
+				{
+					"Name"			"instances/BEE2/clean/items/goRetro/tnt_turret/tnt_turret_05.vmf"
+					"EntityCount"	"5"
+				}
+				"2"
+				{
+					"Name"			"instances/BEE2/clean/items/goRetro/tnt_turret/tnt_turret_08.vmf"
+					"EntityCount"	"5"
+				}
+				"3"
+				{
+					"Name"			"instances/BEE2/clean/items/goRetro/tnt_turret/tnt_turret_15.vmf"
+					"EntityCount"	"5"
+				}
+				"4"
+				{
+					"Name"			"instances/BEE2/clean/items/goRetro/tnt_turret/tnt_turret_20.vmf"
+					"EntityCount"	"5"
 				}
 			}
 

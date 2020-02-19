@@ -2,10 +2,16 @@
 	{
 	"Authors"		"PsychoBR, Felix Griffin, Flash4433"
 	"Tags"			"Portal 2;Test Elements"
-	"Description"	"Stationary turrets used for area denial, that explode after 3 seconds if they're knocked over, picked up, burned or exploded."
-	"Ent_count"     "20"
+	"Description"	
+	{
+		"" "Stationary turrets used for area denial, that explode after a configurable amount of seconds if they're knocked over, picked up, burned or exploded."
+		"" ""
+		"" "* Cube Type - Use to select between 3, 5, 8, 15 or 20 seconds."
+	}
+	"Ent_count"     "5"
 	"Icon"
 		{
-			"0"	"clean/redturret.png"
+			"all"	"clean/redturret.png"
+			"0"		"clean/redturret.png"
 		}
 	}
