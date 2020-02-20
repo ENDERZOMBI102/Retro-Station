@@ -1,4 +1,4 @@
-"ID" "GoRetro"
+"ID" "GO_RETRO"
 "Name" "Retro Station"
 "Desc" "Remake of old and new items, like Faith Cube, Light Bridge Catcher and Bomb Dropper."
 "Prerequisites"
@@ -10,7 +10,7 @@
 "Item"
 	{
 	"ID" "ITEM_TNT_TURRET"
-	"all_conf"	"tnt_turret"
+	"all_conf" "tnt_turret"
 	"Version"
 		{
 		"Styles"
