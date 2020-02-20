@@ -4,7 +4,8 @@
 "Prerequisites"
 {
 	"Package" "VALVE_TEST_ELEM"
-	"Package"	"BEE2_CLEAN_STYLE"
+	"Package" "BEE2_CLEAN_STYLE"
+	"Package" "LAUTARO_GRATES"
 }
 
 "Item"
