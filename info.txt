@@ -115,17 +115,13 @@
 			}
 		}
 	}
-
 "BrushTemplate"
 	{
 	"ID" "TEMP_JAIL_BARS"
 	"File" "jail_bars.vmf"
 	}
 
-"Prerequisites"
-	{
-	"Package"	"BEE2_CLEAN_STYLE"
-	}
+
 "Item"
 	{
 	"ID" "ITEM_PLAYER_BUTTON"
