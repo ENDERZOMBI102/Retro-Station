@@ -150,10 +150,10 @@
 		"Version"
 		{
 			"ID"	"VER_HL2_TURRET"
-			"Name"	"Half-Life 2 - Combine Turret"
+			"Name"	"Combine Turret"
 			"Styles"
 			{
-				"ANY_STYLE" "tnt_turret"
+				"ANY_STYLE" "hl2_turret"
 			}
 		}
 	}
