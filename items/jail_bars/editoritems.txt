@@ -13,7 +13,7 @@
 			"Palette"
 				{
 				"Tooltip" "JAIL BARS"
-				"Image" "palette/retro/jail_bars.png"
+				"Image" "palette/clean/jail_bars.png"
 				}
 			"Sounds"
 				{

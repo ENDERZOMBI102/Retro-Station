@@ -14,7 +14,7 @@
 				"Palette"
 				{
 					"Tooltip"		"PLAYER-ONLY BUTTON"
-					"Image"			"palette/retro/player_button.png"
+					"Image"			"palette/clean/player_button.png"
 					"Position"		"1 0 0"
 				}
 				"Sounds"
