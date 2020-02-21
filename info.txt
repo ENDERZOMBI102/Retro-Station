@@ -16,10 +16,19 @@
 		{
 		"Styles"
 			{
-			"ANY_STYLE"	"tnt_turret"
+			"BEE2_CLEAN"	"tnt_turret"
+			"BEE2_PORTAL_1" 
+				{ 
+				"Base" "BEE2_CLEAN" 
+				"Instances" 
+					{ 
+						"0" "instances/BEE2/p1/items/turret.vmf" 
+					} 
+				}
 			}
 		}
 	}
+
 "Item"
 {
 	"ID" "ITEM_LIGHT_BRIDGE_CATCHER"
