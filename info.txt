@@ -33,6 +33,34 @@
 						"0" "instances/BEE2/p1/items/goRetro/tnt_turret.vmf" 
 					} 
 				}
+			"BEE2_OVERGROWN"
+				{
+				"Base" "BEE2_CLEAN"
+				"ent_count" "20~21"
+				"Instances"
+					{
+						"0" "instances/BEE2/over/items/goRetro/tnt_turret.vmf"
+					}
+				"Config"
+					{
+					"Conditions"
+						{
+						"Condition"
+							{
+							"instance" "<ITEM_TNT_TURRET>"
+							"Result"
+								{
+								"Variant"
+									{
+										"Number" "3"
+										// normal, dirty, dirty & spark
+										"Weight" "1, 4, 3"
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
