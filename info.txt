@@ -27,7 +27,8 @@
 				}
 			"BEE2_PORTAL_1" 
 				{ 
-				"Base" "BEE2_CLEAN" 
+				"Base" "BEE2_CLEAN"
+				"ent_count" "21"
 				"Instances" 
 					{ 
 						"0" "instances/BEE2/p1/items/goRetro/tnt_turret.vmf" 
