@@ -22,7 +22,7 @@
 				"Base" "BEE2_CLEAN" 
 				"Instances" 
 					{ 
-						"0" "instances/BEE2/p1/items/turret.vmf" 
+						"0" "instances/BEE2/p1/items/goRetro/tnt_turret.vmf" 
 					} 
 				}
 			}
