@@ -6,7 +6,10 @@
 	{
 		"" "This sensor outputs if a Light Bridge is inserted into it."
 		"" ""
-		"" "Unfornately, it doesn't have a Portal Magnet on its other side, to help with placing the Light Bridge correctly."
+		"" "Unfornately, it doesn't have a Portal Magnet on its other side, to help place the Light Bridge correctly."
+		"" ""
+		"" ""
+		"" "> Also, it has severe issues with angled light bridges, so please refrain from using those with this item."
 	
 	}
 	"infoURL" "https://forums.thinking.withportals.com/topic10422.html"
