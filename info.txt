@@ -19,7 +19,12 @@
 			"BEE2_CLEAN"	"tnt_turret"
 			"BEE2_1950s"	"turret_50s"
 				{ 
-				"Base" "BEE2_CLEAN" 
+				"Base" "BEE2_CLEAN"
+				"Palette"
+					{
+						"0" "icon" "palette/oldAp/redturret.png"
+						"0" "bee2" "oldAp/redturret.png"
+					}
 				"Instances" 
 					{ 
 						"0" "instances/BEE2/50s/items/goRetro/tnt_turret.vmf" 
