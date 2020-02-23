@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "37"
+	"mapversion" "39"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "37"
+	"mapversion" "39"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -80,7 +80,7 @@ entity
 	"min_speed" "150"
 	"min_streak_speed_dampen" "500"
 	"min_streak_time" "0.2"
-	"PaintType" "0"
+	"PaintType" "$gel"
 	"parentname" "box"
 	"RenderMode" "0"
 	"silent" "0"
@@ -128,7 +128,7 @@ entity
 	"drawinfastreflection" "0"
 	"NewSkins" "1"
 	"PaintPower" "4"
-	"rendercolor" "100 100 255"
+	"rendercolor" "$rendercolor"
 	"skin" "3"
 	"SkinType" "0"
 	"targetname" "box"

@@ -1,0 +1,26 @@
+"Properties"
+	{
+	"Authors" "Reepblue, Flash4433"
+	"Tags" "Portal 2;Cubes"
+	"Description"
+	{	
+	"" "A pack of cubes that shoot out gel when you try to shoot a blue portal while holding them. Trying to shoot a orange portal shoots cleansing gel."
+	"" ""
+	"" "* The Standard Type shoots Bounce Gel."
+	"" "* The Companion Type shoots Speed Gel."
+	"" "* The Reflection Type shoots Portal Gel."
+	"" "* The Sphere Type shoots Cleansing Gel."
+	"" "* The Franken Type shoots Reflection Gel."
+	"" ""
+	"" ""
+	"" "> To-Do - Finish Dropper coding."
+	}
+	"all_name"		"Activator Cubes"
+	"all_icon"		"palette/clean/grouped/gel_cubes.png"
+	"ent_count" "3"
+	"Icon"
+	{
+		"all" "clean/gel_cubes.png"
+		"0" "clean/gel_cubes.png"
+	}
+}

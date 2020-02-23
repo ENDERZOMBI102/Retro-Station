@@ -85,6 +85,18 @@
 
 "Item"
 {
+	"ID" "ITEM_GEL_CUBES"
+	"Version"
+	{
+		"Styles"
+		{
+			"ANY_STYLE" "gel_cubes"
+		}
+	}
+}
+
+"Item"
+{
 	"ID" "ITEM_LASER_CUBE"
 	"Version"
 	{
