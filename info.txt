@@ -6,6 +6,7 @@
 	"Package" "VALVE_TEST_ELEM"
 	"Package" "BEE2_CLEAN_STYLE"
 	"Package" "LAUTARO_GRATES"
+	"Package" "BEE2_PORTAL_1"
 }
 
 "Item"
@@ -57,6 +58,72 @@
 						"Condition"
 							{
 							"instance" "<ITEM_TNT_TURRET>"
+							"Result"
+								{
+								"Variant"
+									{
+										"Number" "3"
+										// normal, dirty, dirty & spark
+										"Weight" "1, 4, 3"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID" "ITEM_CAGED_TURRET"
+	"all_conf" "caged_turret"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"caged_turret"
+			"BEE2_1950s"
+				{ 
+				"Base" "BEE2_CLEAN"
+				"Palette"
+					{
+						"0"
+						{
+							"icon" "palette/oldAp/cagedturret.png"
+							"bee2" "oldAp/cagedturret.png"
+						}
+					}
+				"Instances" 
+					{ 
+						"0" "instances/BEE2/50s/items/goRetro/caged_turret.vmf" 
+					} 
+				}
+			"BEE2_PORTAL_1" 
+				{ 
+				"Base" "BEE2_CLEAN"
+				"ent_count" "2"
+				"Instances" 
+					{ 
+						"0" "instances/BEE2/p1/items/goRetro/caged_turret.vmf" 
+					} 
+				}
+			"BEE2_OVERGROWN"
+				{
+				"Base" "BEE2_CLEAN"
+				"ent_count" "1~2"
+				"Instances"
+					{
+						"0" "instances/BEE2/over/items/goRetro/caged_turret.vmf"
+					}
+				"Config"
+					{
+					"Conditions"
+						{
+						"Condition"
+							{
+							"instance" "<ITEM_CAGED_TURRET>"
 							"Result"
 								{
 								"Variant"

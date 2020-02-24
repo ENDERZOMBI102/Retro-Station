@@ -1,0 +1,11 @@
+"Properties"
+	{
+	"Authors"		"Valve, Flash4433"
+	"Tags"			"Portal 2;Test Elements"
+	"Description"	"Stationary turrets used for area denial. They're inside a cage that cannot be moved, just like Portal 1's Advanced Chamber 16. Can be killed with a laser."
+	"Ent_count"     "1"
+	"Icon"
+		{
+			"0"	"clean/cagedturret.png"
+		}
+	}
