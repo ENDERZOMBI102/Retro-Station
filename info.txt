@@ -22,8 +22,11 @@
 				"Base" "BEE2_CLEAN"
 				"Palette"
 					{
-						"0" "icon" "palette/oldAp/redturret.png"
-						"0" "bee2" "oldAp/redturret.png"
+						"0"
+						{
+							"icon" "palette/oldAp/redturret.png"
+							"bee2" "oldAp/redturret.png"
+						}
 					}
 				"Instances" 
 					{ 
@@ -79,6 +82,18 @@
 		"Styles"
 		{
 			"ANY_STYLE" "light_catcher"
+		}
+	}
+}
+
+"Item"
+{
+	"ID" "ITEM_GEL_CUBES"
+	"Version"
+	{
+		"Styles"
+		{
+			"ANY_STYLE" "gel_cubes"
 		}
 	}
 }
