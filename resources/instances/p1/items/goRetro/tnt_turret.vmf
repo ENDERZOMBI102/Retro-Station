@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "119"
+	"mapversion" "120"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "119"
+	"mapversion" "120"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -469,7 +469,7 @@ entity
 	"Gagged" "0"
 	"LoadAlternativeModels" "0"
 	"model" "models/BEE2/props_p1/turret_01.mdl"
-	"ModelIndex" "0"
+	"ModelIndex" "1"
 	"PickupEnabled" "1"
 	"rendercolor" "200 0 0"
 	"SkinNumber" "0"
