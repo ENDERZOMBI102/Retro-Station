@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "5454"
-	"mapversion" "54"
+	"editorbuild" "8419"
+	"mapversion" "55"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "54"
+	"mapversion" "55"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -37,9 +37,9 @@ entity
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
-	"SourceEntityName" "Kubus"
+	"SourceEntityName" "box"
 	"spawnflags" "48"
-	"targetname" "Anschaltsound"
+	"targetname" "cube_addon_Anschaltsound"
 	"origin" "8 -8 0"
 	editor
 	{
@@ -58,9 +58,9 @@ entity
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
-	"SourceEntityName" "Kubus"
+	"SourceEntityName" "box"
 	"spawnflags" "48"
-	"targetname" "Fehlersound"
+	"targetname" "cube_addon_Fehlersound"
 	"origin" "8 8 0"
 	editor
 	{
@@ -75,10 +75,10 @@ entity
 	"id" "1346"
 	"classname" "info_target"
 	"angles" "0 0 0"
-	"parentname" "Katapult_Ziel_Distanz"
+	"parentname" "cube_addon_Katapult_Ziel_Distanz"
 	"spawnflags" "0"
-	"targetname" "Katapult_Ziel"
-	"origin" "0 0 0"
+	"targetname" "cube_addon_Katapult_Ziel"
+	"origin" "0 24 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -104,8 +104,8 @@ entity
 	"locked_sentence" "0"
 	"loopmovesound" "0"
 	"movedir" "90 0 0"
-	"origin" "0 0 0"
-	"parentname" "Kubus"
+	"origin" "0 -24 0"
+	"parentname" "box"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -114,7 +114,7 @@ entity
 	"spawnflags" "4621"
 	"spawnpos" "1"
 	"speed" "999"
-	"targetname" "Katapult_Ziel_Distanz"
+	"targetname" "cube_addon_Katapult_Ziel_Distanz"
 	"unlocked_sentence" "0"
 	"wait" "4"
 	solid
@@ -123,7 +123,7 @@ entity
 		side
 		{
 			"id" "60"
-			"plane" "(-4 -4 2.98023e-007) (4 -4 2.98023e-007) (4 -4 -1)"
+			"plane" "(4 -28 0) (4 -28 -1) (-4 -28 -1)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -134,7 +134,7 @@ entity
 		side
 		{
 			"id" "59"
-			"plane" "(-4 4 -1) (4 4 -1) (4 4 2.98023e-007)"
+			"plane" "(-4 -20 0) (-4 -20 -1) (4 -20 -1)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -145,10 +145,10 @@ entity
 		side
 		{
 			"id" "58"
-			"plane" "(-4 -4 2.98023e-007) (-4 -4 -1) (-4 4 -1)"
+			"plane" "(-4 -28 0) (-4 -28 -1) (-4 -20 -1)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 0 -1 0] 0.25"
-			"vaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 1 0 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -156,10 +156,10 @@ entity
 		side
 		{
 			"id" "57"
-			"plane" "(4 4 2.98023e-007) (4 4 -1) (4 -4 -1)"
+			"plane" "(4 -20 0) (4 -20 -1) (4 -28 -1)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 0 1 0] 0.25"
-			"vaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 1 0 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -167,10 +167,10 @@ entity
 		side
 		{
 			"id" "56"
-			"plane" "(4 -4 2.98023e-007) (-4 -4 2.98023e-007) (-4 4 2.98023e-007)"
+			"plane" "(4 -28 0) (-4 -28 0) (-4 -20 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 1 0 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -178,10 +178,10 @@ entity
 		side
 		{
 			"id" "55"
-			"plane" "(4 4 -1) (-4 4 -1) (-4 -4 -1)"
+			"plane" "(4 -20 -1) (-4 -20 -1) (-4 -28 -1)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 1 0 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -207,16 +207,15 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"StartDisabled" "1"
-	"targetname" "AutoFire_Enable"
+	"targetname" "cube_addon_AutoFire_Enable"
 	connections
 	{
-		"OnTrigger" "KatapultEnable0-1"
-		"OnTrigger" "FireDisable0-1"
-		"OnTrigger" "FireCancelPending0-1"
-		"OnTrigger" "AutoFire_DisableEnable0-1"
-		"OnTrigger" "AutoFire_EnableDisable0-1"
-		"OnTrigger" "SprungkubusSkin00-1"
-		"OnTrigger" "AnschaltsoundPlaySound0-1"
+		"OnTrigger" "cube_addon_KatapultEnable0-1"
+		"OnTrigger" "cube_addon_FireDisable0-1"
+		"OnTrigger" "cube_addon_FireCancelPending0-1"
+		"OnTrigger" "cube_addon_AutoFire_DisableEnable0-1"
+		"OnTrigger" "cube_addon_AutoFire_EnableDisable0-1"
+		"OnTrigger" "cube_addon_AnschaltsoundPlaySound0-1"
 	}
 	"origin" "0 -8 32"
 	editor
@@ -233,15 +232,14 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"StartDisabled" "0"
-	"targetname" "AutoFire_Disable"
+	"targetname" "cube_addon_AutoFire_Disable"
 	connections
 	{
-		"OnTrigger" "KatapultDisable0-1"
-		"OnTrigger" "FireEnable0-1"
-		"OnTrigger" "AutoFire_EnableEnable0-1"
-		"OnTrigger" "AutoFire_DisableDisable0-1"
-		"OnTrigger" "SprungkubusSkin20-1"
-		"OnTrigger" "FehlersoundPlaySound0-1"
+		"OnTrigger" "cube_addon_KatapultDisable0-1"
+		"OnTrigger" "cube_addon_FireEnable0-1"
+		"OnTrigger" "cube_addon_AutoFire_EnableEnable0-1"
+		"OnTrigger" "cube_addon_AutoFire_DisableDisable0-1"
+		"OnTrigger" "cube_addon_FehlersoundPlaySound0-1"
 	}
 	"origin" "16 -8 32"
 	editor
@@ -275,9 +273,9 @@ entity
 	"targetname" "proxy"
 	connections
 	{
-		"OnProxyRelay" "FireTrigger0-1"
-		"OnProxyRelay" "AutoFire_EnableTrigger0-1"
-		"OnProxyRelay" "AutoFire_DisableTrigger0-1"
+		"OnProxyRelay" "cube_addon_FireTrigger0-1"
+		"OnProxyRelay" "cube_addon_AutoFire_EnableTrigger0-1"
+		"OnProxyRelay" "cube_addon_AutoFire_DisableTrigger0-1"
 	}
 	"origin" "-8 8 32"
 	editor
@@ -294,67 +292,15 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"StartDisabled" "1"
-	"targetname" "Fire"
+	"targetname" "cube_addon_Fire"
 	connections
 	{
-		"OnTrigger" "KatapultEnable0-1"
-		"OnTrigger" "KatapultDisable0.1-1"
-		"OnTrigger" "SprungkubusSkin00-1"
-		"OnTrigger" "SprungkubusSkin21-1"
-		"OnTrigger" "FehlersoundPlaySound1-1"
-		"OnTrigger" "AnschaltsoundPlaySound0-1"
+		"OnTrigger" "cube_addon_KatapultEnable0-1"
+		"OnTrigger" "cube_addon_KatapultDisable0.1-1"
+		"OnTrigger" "cube_addon_FehlersoundPlaySound1-1"
+		"OnTrigger" "cube_addon_AnschaltsoundPlaySound0-1"
 	}
 	"origin" "-16 -8 32"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "2"
-	"classname" "prop_weighted_cube"
-	"allowfunnel" "1"
-	"angles" "0 0 0"
-	"disableflashlight" "1"
-	"disablereceiveshadows" "1"
-	"disableshadowdepth" "1"
-	"disableshadows" "1"
-	"PaintPower" "4"
-	"rendermode" "10"
-	"shadowdepthnocache" "1"
-	"targetname" "Kubus"
-	"origin" "0 0 0"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "4"
-	"classname" "prop_dynamic"
-	"angles" "0 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"HoldAnimation" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
-	"model" "models/erikszeug/gameplay/sprungkubus.mdl"
-	"parentname" "Kubus"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "0"
-	"spawnflags" "0"
-	"targetname" "Sprungkubus"
-	"origin" "0 0 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -371,24 +317,24 @@ entity
 	"applyAngularImpulse" "1"
 	"entryAngleTolerance" "0.0"
 	"exactVelocityChoiceType" "0"
-	"filtername" "Kubus_Filter"
+	"filtername" "cube_addon_Kubus_Filter"
 	"launchDirection" "0 0 0"
-	"launchTarget" "Katapult_Ziel"
+	"launchTarget" "cube_addon_Katapult_Ziel"
 	"lowerThreshold" "0.15"
 	"onlyVelocityCheck" "0"
 	"origin" "0 0 20"
-	"parentname" "Kubus"
+	"parentname" "box"
 	"physicsSpeed" "$PhysicsSpeed"
 	"playerSpeed" "$PlayerSpeed"
 	"spawnflags" "4111"
 	"StartDisabled" "0"
-	"targetname" "Katapult"
+	"targetname" "cube_addon_Katapult"
 	"upperThreshold" "0.30"
 	"useExactVelocity" "0"
 	"useThresholdCheck" "0"
 	connections
 	{
-		"OnCatapulted" "SprungkubusSetAnimationsprung0-1"
+		"OnCatapulted" "boxSetAnimationsprung0-1"
 	}
 	solid
 	{
@@ -478,9 +424,9 @@ entity
 {
 	"id" "347"
 	"classname" "filter_activator_name"
-	"filtername" "Kubus"
+	"filtername" "box"
 	"Negated" "1"
-	"targetname" "Kubus_Filter"
+	"targetname" "cube_addon_Kubus_Filter"
 	"origin" "0 0 0"
 	editor
 	{
