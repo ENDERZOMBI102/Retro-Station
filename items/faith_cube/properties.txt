@@ -1,6 +1,6 @@
 "Properties"
 {
-	"Authors" "EriksZeug"
+	"Authors" "EriksZeug, ENDERZOMBI102, Flash4433"
 	"Tags" "Portal 2;Test Elements;Faith Plate"
 	"Description"
 	{
