@@ -40,7 +40,7 @@
 			}
 
 			"TargetName"		"portalcube"
-			"Offset"		"64 64 64"
+			"Offset"			"64 64 64"
 			"OccupiedVoxels"
 			{
 				"Voxel"
