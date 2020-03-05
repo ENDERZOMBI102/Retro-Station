@@ -1,4 +1,3 @@
 *.zip
-*.vmx
 resources/scripts/science
-*.tga
+*.vmx
