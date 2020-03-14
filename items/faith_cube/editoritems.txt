@@ -24,7 +24,7 @@
 					"SOUND_DELETED"					"P2Editor.RemoveCube"
 				}
 			}
-			"MovementHandle"		"HANDLE_36_DIRECTIONS"
+			"MovementHandle"		"HANDLE_NONE"
 			"InvalidSurface"		"CEILING WALL"
 		}
 		"Exporting"
