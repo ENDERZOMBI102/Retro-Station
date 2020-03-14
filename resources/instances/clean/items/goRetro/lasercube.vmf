@@ -49,36 +49,12 @@ entity
 }
 entity
 {
-	"id" "2"
-	"classname" "prop_weighted_cube"
-	"allowfunnel" "1"
-	"angles" "0 180 0"
-	"CubeType" "2"
-	"model" "models/props/reflection_cube.mdl"
-	"NewSkins" "1"
-	"PaintPower" "4"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"SkinType" "0"
-	"targetname" "lasercube"
-	"origin" "-0.00142087 0.0103386 16"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "8"
 	"classname" "env_portal_laser"
 	"angles" "0 180 0"
 	"AutoAimEnabled" "1"
 	"model" "models/flash4433/laser_emitter_center_mini.mdl"
-	"parentname" "lasercube"
+	"parentname" "box"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
