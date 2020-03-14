@@ -1,6 +1,5 @@
 "Item"
 	{
-		"ItemClass"	"ItemButtonFloor"
 		"Type"		"ITEM_FAITH_CUBE"
 		"Editor"
 		{
