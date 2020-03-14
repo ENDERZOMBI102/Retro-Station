@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7552"
-	"mapversion" "16"
+	"editorbuild" "8419"
+	"mapversion" "18"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "1"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "1"
 }
 world
 {
 	"id" "1"
-	"mapversion" "16"
+	"mapversion" "18"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -30,36 +30,17 @@ world
 }
 entity
 {
-	"id" "21"
-	"classname" "logic_auto"
-	"globalstate" "is_pc"
-	"spawnflags" "1"
-	connections
-	{
-		"OnMapSpawn" "laserSetParentAttachmentMaintainOffsetlaser_attachment0-1"
-	}
-	"origin" "0 0 16"
-	editor
-	{
-		"color" "0 100 250"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "8"
 	"classname" "env_portal_laser"
-	"angles" "0 180 0"
+	"angles" "0 0 0"
 	"AutoAimEnabled" "1"
 	"model" "models/flash4433/laser_emitter_center_mini.mdl"
 	"parentname" "box"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
-	"targetname" "laser"
-	"origin" "-0.00142087 0.0103386 16"
+	"targetname" "cube_addon_laser"
+	"origin" "0 0 16"
 	editor
 	{
 		"color" "220 30 220"
@@ -73,8 +54,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-34.3997 -22.541 23.4773]"
-		"look" "[-32.8845 -20.3719 23.4066]"
+		"position" "[-40.5093 -51.2134 28.6729]"
+		"look" "[-39.0209 -49.0827 28.1728]"
 	}
 }
 cordons
