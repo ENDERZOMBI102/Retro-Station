@@ -36,7 +36,7 @@ entity
 	"spawnflags" "1"
 	connections
 	{
-		"OnMapSpawn" "laserSetParentAttachmentMaintainOffsetfocus0-1"
+		"OnMapSpawn" "laserSetParentAttachmentMaintainOffsetlaser_attachment0-1"
 	}
 	"origin" "0 0 16"
 	editor
