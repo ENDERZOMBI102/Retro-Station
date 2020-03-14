@@ -1,6 +1,5 @@
 "Item"
 	{
-		"ItemClass"	"ItemTurret"
 		"Type"		"ITEM_LASER_CUBE"
 		"Editor"
 		{
