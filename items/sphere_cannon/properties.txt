@@ -6,11 +6,11 @@
 	{
 		"" "The Sphere Cannon is a portable cannon that shoots spheres pretty far."
 		"" ""
-		"" "When a Sphere is shot the previous one will be fizzled."
+		"" "* When a Sphere is shot the previous one will be fizzled."
+		"" "* The button is used to respawn the Sphere Cannon."
+		"" "* The Cannon contains a tutorial in the form of game_text, when you pick it up."
 		"" ""
-		"" "The button is used to respawn the Sphere Cannon."
-		"" ""
-		"" "The Cannon contains a tutorial in the form of game_text, when you pick it up."
+		"" "> To-Do: Improve model, make cannon spawn from dropper."
 	}
 	"infoURL" "https://forums.thinking.withportals.com/topic8280.html"
 	"ent_count" "18"

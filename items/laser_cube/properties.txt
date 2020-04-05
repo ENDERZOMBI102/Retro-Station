@@ -7,7 +7,8 @@
 		"" "A Reflector Cube that has an Laser Emitter."
 		"" ""
 		"" "The idea is from HallowITE, from a level in his workshop."
-
+		"" ""
+		"" "> To-Do: Finish Dropper Coding."
 	}
 	"infoURL" "https://forums.thinking.withportals.com/topic8853.html"
 	"ent_count" "2"

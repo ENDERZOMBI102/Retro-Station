@@ -10,6 +10,8 @@
 		"" "* Anything that enters it will be killed, and respawned if possible."
 		"" "* If a Companion Cube falls inside of it, the Incinerator will close and output."
 		"" "* If **Start Reversed** is checked, the Companion Cube will respawn, or else it will be stuck down there forever."
+		"" ""
+		"" "> To-Do - Nonfunctional"
 	}
 	"ent_count" "6"
 	"Icon"
