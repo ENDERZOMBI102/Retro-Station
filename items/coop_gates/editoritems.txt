@@ -10,7 +10,7 @@
 			"Name"		"Blue Co-op Gate"
 			"Model"
 			{
-				"ModelName"			"dfizzler.3ds"
+				"ModelName"			"laserfield.3ds"
 			}
 			"Palette"
 			{
@@ -31,13 +31,20 @@
 			"Name"		"Orange Co-op Gates"
 			"Model"
 			{
-				"ModelName"			"dfizzler.3ds"
+				"ModelName"			"laserfield.3ds"
 			}
 			"Palette"
 			{
 				"Tooltip"		"COOP GATES"
 				"Image"			"palette/clean/orange_coop_gate.png"
 				"Position"		"1 0 0"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
 			}
 		}
 		"MovementHandle"			"HANDLE_6_POSITIONS"
@@ -93,6 +100,7 @@
 				"Enable_Cmd"    "mdl,SetAnimation,open,0.00,-1"
 				"Disable_Cmd"   "brush,Disable,,0.00,-1"
 				"Disable_Cmd"   "mdl,SetAnimation,close,0.00,-1"
+				"Disable_Cmd"   "mdl,SetAnimation,closeIdle,0.99,-1"
 				"Disable_Cmd"   "mdl,Deactivate,,0.00,-1"
 				}
 			}
