@@ -1,6 +1,6 @@
 "Item"
 	{
-		"Type"		"ITEM_GEL_CUBES"
+		"Type"		"ITEM_GEL_CUBE"
 		"Editor"
 		{
 			"SubTypeProperty"		"CubeType"
@@ -172,7 +172,7 @@
 					}
 			}
 
-			"TargetName"		"button"
+			"TargetName"		"gelc"
 			"OccupiedVoxels"
 			{
 				"Voxel"

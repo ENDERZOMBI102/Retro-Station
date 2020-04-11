@@ -7,6 +7,7 @@
 	"Package" "BEE2_CLEAN_STYLE"
 	"Package" "LAUTARO_GRATES"
 	"Package" "BEE2_PORTAL_1"
+	"Package" "BEE2_CUBE_COLORISER"
 }
 
 "Item"
@@ -155,7 +156,7 @@
 
 "Item"
 {
-	"ID" "ITEM_GEL_CUBES"
+	"ID" "ITEM_GEL_CUBE"
 	"Version"
 	{
 		"Styles"
