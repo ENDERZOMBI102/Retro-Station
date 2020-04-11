@@ -43,7 +43,7 @@
 				}
 				"1"
 				{
-					"Name"				"instances/BEE2/clean/items/button/player_button.vmf"
+					"Name"				"instances/BEE2/clean/items/player_button.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"41"
 					"BrushSideCount"	"286"

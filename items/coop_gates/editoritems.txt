@@ -72,6 +72,13 @@
 				"BrushCount"		"14"
 				"BrushSideCount"	"92"
 			}
+			"1"
+			{
+				"Name"			"instances/bee2/goRetro/pusher71/color_gate_orange_128x128.vmf"
+				"EntityCount"		"6"
+				"BrushCount"		"14"
+				"BrushSideCount"	"92"
+			}
 		}
 		"TargetName"		"coopgates"
 		"Offset"		"64 64 64"

@@ -9,6 +9,8 @@
 		"" "* Fizzler - Blue Bot, AtLAS"
 		"" "* Laserfield - Orange Bot, P-Body"
 		"" "* Single-Player - Kills the player."
+		"" ""
+		"" "> TO-DO: Nonfunctional, Fix freeze when compiling."
 	}
 	"infoURL" 		"https://forums.thinking.withportals.com/downloads.php?view=detail&df_id=3320"
 	"ent_count"     "4 +\nFizz: 3 per row\nLas: 4 per row"

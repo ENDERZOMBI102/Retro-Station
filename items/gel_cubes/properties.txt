@@ -13,7 +13,7 @@
 	"" "* The Franken Type shoots Reflection Gel."
 	"" ""
 	"" ""
-	"" "> To-Do - Finish Dropper coding."
+	"" "> To-Do - Nonfunctional, Finish Dropper coding."
 	}
 	"all_name"		"Activator Cubes"
 	"all_icon"		"palette/clean/grouped/gel_cubes.png"
