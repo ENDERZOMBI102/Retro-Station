@@ -4,7 +4,7 @@ $detail2 "effects/laser_group10x_phase"
 $detail1blendmode 1
 $detail1 "effects/laserplane_atmosphere"
 $detail2blendmode 1
-$basetexture "effects/laser_group10x_blue"
+$basetexture "pusher71/laser_group10x_blue"
 $translucent 1
 $additive 1
 $basetexturescale "[1 1]"
