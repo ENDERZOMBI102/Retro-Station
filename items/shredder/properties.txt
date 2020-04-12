@@ -1,0 +1,16 @@
+"Properties"
+{
+	"Authors"		"TeamSpen210"
+	"Tags" 			"TeamSpen210; BEE 2 Addons; TS - New Items"
+	"Description"	
+	{
+		"" "Two rotating screw-like blades that form a hazard in some coop maps. Can be disabled to make them crossable. When on, they always hurt players but are only dangerous to objects in the center. Appears on top of the block it is placed on as well as inside the floor, to allow the ends to be stuck through the wall if needed. It occupies an 8x2 footprint pointing in the same direction as the rotation handle."
+		"" ""
+		"" "> This item will be removed once the official version comes out."
+	}
+	"ent_count"     "9"
+	"Icon"
+	{
+		"0"		"clean/shredder.png"
+	}
+}

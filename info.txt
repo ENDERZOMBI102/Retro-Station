@@ -8,6 +8,7 @@
 	"Package" "LAUTARO_GRATES"
 	"Package" "BEE2_PORTAL_1"
 	"Package" "BEE2_CUBE_COLORISER"
+	"Package" "BEEMOD_1"
 }
 
 "Item"
@@ -162,6 +163,18 @@
 		"Styles"
 		{
 			"BEE2_CLEAN" "double_grate_panel"
+		}
+	}
+}
+
+"Item"
+{
+	"ID" "ITEM_SHREDDER"
+	"Version"
+	{
+		"Styles"
+		{
+			"BEE2_CLEAN" "shredder"
 		}
 	}
 }
