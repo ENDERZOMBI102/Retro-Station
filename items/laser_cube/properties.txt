@@ -1,12 +1,10 @@
 "Properties"
 {
-	"Authors" "Niin31, Radelite, Flash4433"
+	"Authors" "Niin31, Radelite, HallowITE, Flash4433"
 	"Tags" "Portal 2;Test Elements"
 	"Description"
 	{
 		"" "A Reflector Cube that has an Laser Emitter."
-		"" ""
-		"" "The idea is from HallowITE, from a level in his workshop."
 		"" ""
 		"" "> To-Do: Finish Dropper Coding."
 	}

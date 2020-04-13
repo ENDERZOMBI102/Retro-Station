@@ -1,0 +1,16 @@
+"Properties"
+{
+	"Authors"		"TeamSpen210"
+	"Tags" 			"TeamSpen210; BEE 2 Addons; TS - Modified Items; Portal 2"
+	"Description"	
+	{
+		"" "A set of grating-topped panel arms that unfold in sequence. Chain these together using the in/outputs to extend the effect (button > panel > panel > panel...). Start Reversed reverses the movement order, check this if the panels in the wrong order."
+		"" ""
+		"" "> This item will be removed once the official version comes out. That version will come with the Track Platform logic to link panels automatically."
+	}
+	"ent_count"     "16"
+	"Icon"
+	{
+		"0"		"clean/double_grate_panel.png"
+	}
+}
