@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "44"
+	"mapversion" "45"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "44"
+	"mapversion" "45"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -49,7 +49,7 @@ entity
 	"min_speed" "650"
 	"min_streak_speed_dampen" "10"
 	"min_streak_time" "0.1"
-	"PaintType" "0"
+	"PaintType" "$gel"
 	"parentname" "box"
 	"radius_grow_time_max" "1"
 	"radius_grow_time_min" "0.5"
@@ -123,6 +123,7 @@ entity
 		"OnPhysGunDrop" "cube_addon_uiDeactivate0-1"
 		"OnPhysGunDrop" "cube_addon_sprayer1Stop0-1"
 		"OnPhysGunDrop" "cube_addon_sprayer2Stop0-1"
+		"OnPainted" "!selfColor$rendercolor0-1"
 	}
 	"origin" "8 0 0"
 	editor
