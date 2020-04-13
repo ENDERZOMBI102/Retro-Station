@@ -13,11 +13,11 @@
 	"" "* The Franken Type shoots Reflection Gel."
 	"" ""
 	"" ""
-	"" "> To-Do - Nonfunctional, Finish Dropper coding."
+	"" "* To add a dropper, simply put a Weighted Cube with a dropper in the same voxel as the Gel Cube. The Gel Cube will overwrite the Weighted Cube."
 	}
-	"all_name"		"Activator Cubes"
+	"all_name"		"GEL CUBES"
 	"all_icon"		"palette/clean/grouped/gel_cubes.png"
-	"ent_count" "3"
+	"ent_count" "Dropperless: 5\nDropper: 20"
 	"Icon"
 	{
 		"all" "clean/gel_cubes.png"
