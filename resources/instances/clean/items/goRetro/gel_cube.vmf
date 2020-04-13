@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "42"
+	"mapversion" "43"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "3"
+	"mapversion" "43"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -28,6 +28,86 @@ world
 	"maxpropscreenwidth" "-1"
 	"paintinmap" "1"
 	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "294"
+	"classname" "info_paint_sprayer"
+	"AmbientSound" "0"
+	"angles" "0 0 0"
+	"blob_spread_angle" "0"
+	"blob_spread_radius" "0"
+	"blob_streak_percentage" "0"
+	"blobs_per_second" "100"
+	"DrawOnly" "0"
+	"end_radius_max" "0.7"
+	"end_radius_min" "0.5"
+	"max_speed" "1150"
+	"max_streak_speed_dampen" "15"
+	"max_streak_time" "0.2"
+	"maxblobcount" "250"
+	"min_speed" "650"
+	"min_streak_speed_dampen" "10"
+	"min_streak_time" "0.1"
+	"PaintType" "0"
+	"parentname" "box"
+	"radius_grow_time_max" "1"
+	"radius_grow_time_min" "0.5"
+	"RenderMode" "1"
+	"silent" "0"
+	"skin" "0"
+	"start_active" "0"
+	"start_radius_max" "0.7"
+	"start_radius_min" "0.5"
+	"targetname" "cube_addon_sprayer1"
+	"origin" "28 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "298"
+	"classname" "info_paint_sprayer"
+	"AmbientSound" "0"
+	"angles" "0 0 0"
+	"blob_spread_angle" "0"
+	"blob_spread_radius" "0"
+	"blob_streak_percentage" "0"
+	"blobs_per_second" "100"
+	"DrawOnly" "0"
+	"end_radius_max" "0.7"
+	"end_radius_min" "0.5"
+	"max_speed" "1150"
+	"max_streak_speed_dampen" "15"
+	"max_streak_time" "0.2"
+	"maxblobcount" "250"
+	"min_speed" "650"
+	"min_streak_speed_dampen" "10"
+	"min_streak_time" "0.1"
+	"PaintType" "4"
+	"parentname" "box"
+	"radius_grow_time_max" "1"
+	"radius_grow_time_min" "0.5"
+	"RenderMode" "1"
+	"silent" "0"
+	"skin" "4"
+	"start_active" "0"
+	"start_radius_max" "0.7"
+	"start_radius_min" "0.5"
+	"targetname" "cube_addon_sprayer2"
+	"origin" "28 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
 }
 entity
 {
@@ -41,6 +121,8 @@ entity
 	{
 		"OnPlayerPickup" "cube_addon_uiActivate0-1"
 		"OnPhysGunDrop" "cube_addon_uiDeactivate0-1"
+		"OnPhysGunDrop" "cube_addon_sprayer1Stop0-1"
+		"OnPhysGunDrop" "cube_addon_sprayer2Stop0-1"
 	}
 	"origin" "8 0 0"
 	editor
@@ -49,84 +131,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "73"
-	"classname" "info_paint_sprayer"
-	"AmbientSound" "2"
-	"angles" "0 0 0"
-	"blob_spread_angle" "0"
-	"blob_spread_radius" "0"
-	"blob_streak_percentage" "0"
-	"blobs_per_second" "10"
-	"DrawOnly" "0"
-	"end_radius_max" "0.7"
-	"end_radius_min" "0.5"
-	"max_speed" "150"
-	"max_streak_speed_dampen" "1000"
-	"max_streak_time" "0.5"
-	"maxblobcount" "250"
-	"min_speed" "150"
-	"min_streak_speed_dampen" "500"
-	"min_streak_time" "0.2"
-	"PaintType" "4"
-	"parentname" "box"
-	"radius_grow_time_max" "1"
-	"radius_grow_time_min" "0.5"
-	"RenderMode" "0"
-	"silent" "0"
-	"start_active" "0"
-	"start_radius_max" "0.7"
-	"start_radius_min" "0.5"
-	"targetname" "cube_addon_sprayer2"
-	"origin" "28 0 8"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "88"
-	"classname" "info_paint_sprayer"
-	"AmbientSound" "2"
-	"angles" "0 0 0"
-	"blob_spread_angle" "0"
-	"blob_spread_radius" "0"
-	"blob_streak_percentage" "0"
-	"blobs_per_second" "10"
-	"DrawOnly" "0"
-	"end_radius_max" "0.7"
-	"end_radius_min" "0.5"
-	"max_speed" "150"
-	"max_streak_speed_dampen" "1000"
-	"max_streak_time" "0.5"
-	"maxblobcount" "250"
-	"min_speed" "150"
-	"min_streak_speed_dampen" "500"
-	"min_streak_time" "0.2"
-	"PaintType" "$gel"
-	"parentname" "box"
-	"radius_grow_time_max" "1"
-	"radius_grow_time_min" "0.5"
-	"RenderMode" "0"
-	"silent" "0"
-	"start_active" "0"
-	"start_radius_max" "0.7"
-	"start_radius_min" "0.5"
-	"targetname" "cube_addon_sprayer1"
-	"origin" "28 0 -8"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 entity
