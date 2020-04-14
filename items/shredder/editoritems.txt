@@ -37,7 +37,7 @@
 			}
 			"StartEnabled"
 			{
-				"DefaultValue"		"0"
+				"DefaultValue"		"1"
 				"Index"		"2"
 			}
 		}
