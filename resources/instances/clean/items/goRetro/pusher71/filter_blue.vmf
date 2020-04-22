@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "2"
+	"mapversion" "3"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "3"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -31,11 +31,10 @@ world
 entity
 {
 	"id" "4"
-	"classname" "filter_activator_model"
+	"classname" "filter_activator_name"
 	"angles" "0 0 0"
-	"model" "models/player/eggbot/eggbot.mdl"
-	"Negated" "Allow entities that match criteria"
-	"skin" "0"
+	"filtername" "!player_blue"
+	"Negated" "1"
 	"targetname" "@filter_blue"
 	"origin" "0 0 0"
 	editor

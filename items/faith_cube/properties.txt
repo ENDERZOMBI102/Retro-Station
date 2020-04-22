@@ -1,12 +1,10 @@
 "Properties"
 {
-	"Authors" "EriksZeug"
+	"Authors" "EriksZeug, ENDERZOMBI102, Flash4433"
 	"Tags" "Portal 2;Test Elements;Faith Plate"
 	"Description"
 	{
-		"" "A Cube with a built-in Faith Plate. Aka Catapult Cube or Sprungkubus."
-		"" ""
-		"" "The Cube can still be used on buttons, and the faith plate throws anything it touches up about 320 units (2 and 1/2 Panels)."
+		"" "A Cube with a built-in Faith Plate. Aka Catapult Cube or Sprungkubus. The faith plate throws anything it touches up about 320 units (2 and 1/2 Panels)."
 		"" ""
 		"" "> To-Do: Finish Dropper Coding."
 	}
