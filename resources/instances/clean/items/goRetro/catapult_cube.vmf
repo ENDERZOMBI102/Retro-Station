@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8419"
-	"mapversion" "56"
+	"editorbuild" "5454"
+	"mapversion" "54"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "56"
+	"mapversion" "54"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -30,67 +30,14 @@ world
 }
 entity
 {
-	"id" "1465"
-	"classname" "comp_kv_setter"
-	"kv_name" "rendermode"
-	"kv_value_global" "10"
-	"mode" "kv"
-	"target" "box"
-	"origin" "40 0 0"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "1499"
-	"classname" "comp_kv_setter"
-	"kv_name" "disablereceiveshadows"
-	"kv_value_global" "1"
-	"mode" "kv"
-	"target" "box"
-	"origin" "40 16 0"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "1503"
-	"classname" "comp_kv_setter"
-	"kv_name" "disableshadows"
-	"kv_value_global" "1"
-	"mode" "kv"
-	"target" "box"
-	"origin" "40 -16 0"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "1402"
 	"classname" "ambient_generic"
-	"angles" "0 0 0"
 	"health" "10"
 	"message" "World.RobotPosInteract"
-	"parentname" "box"
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
-	"SourceEntityName" "Sprungkubus"
+	"SourceEntityName" "Kubus"
 	"spawnflags" "48"
 	"targetname" "Anschaltsound"
 	"origin" "8 -8 0"
@@ -106,14 +53,12 @@ entity
 {
 	"id" "1381"
 	"classname" "ambient_generic"
-	"angles" "0 0 0"
 	"health" "10"
 	"message" "World.RobotNegInteract"
-	"parentname" "box"
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
-	"SourceEntityName" "Sprungkubus"
+	"SourceEntityName" "Kubus"
 	"spawnflags" "48"
 	"targetname" "Fehlersound"
 	"origin" "8 8 0"
@@ -160,13 +105,12 @@ entity
 	"loopmovesound" "0"
 	"movedir" "90 0 0"
 	"origin" "0 0 0"
-	"parentname" "box"
+	"parentname" "Kubus"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "10"
 	"shadowdepthnocache" "0"
-	"solid" "6"
 	"spawnflags" "4621"
 	"spawnpos" "1"
 	"speed" "999"
@@ -261,8 +205,6 @@ entity
 {
 	"id" "1030"
 	"classname" "logic_relay"
-	"angles" "0 0 0"
-	"parentname" "box"
 	"spawnflags" "0"
 	"StartDisabled" "1"
 	"targetname" "AutoFire_Enable"
@@ -279,7 +221,7 @@ entity
 	"origin" "0 -8 32"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
@@ -289,8 +231,6 @@ entity
 {
 	"id" "1046"
 	"classname" "logic_relay"
-	"angles" "0 0 0"
-	"parentname" "box"
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "AutoFire_Disable"
@@ -306,7 +246,7 @@ entity
 	"origin" "16 -8 32"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
@@ -352,8 +292,6 @@ entity
 {
 	"id" "606"
 	"classname" "logic_relay"
-	"angles" "0 0 0"
-	"parentname" "box"
 	"spawnflags" "0"
 	"StartDisabled" "1"
 	"targetname" "Fire"
@@ -369,10 +307,33 @@ entity
 	"origin" "-16 -8 32"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_weighted_cube"
+	"allowfunnel" "1"
+	"angles" "0 0 0"
+	"disableflashlight" "1"
+	"disablereceiveshadows" "1"
+	"disableshadowdepth" "1"
+	"disableshadows" "1"
+	"PaintPower" "4"
+	"rendermode" "10"
+	"shadowdepthnocache" "1"
+	"targetname" "Kubus"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -386,8 +347,7 @@ entity
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/erikszeug/gameplay/sprungkubus.mdl"
-	"parentname" "box"
-	"physdamagescale" "1.0"
+	"parentname" "Kubus"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
@@ -417,10 +377,9 @@ entity
 	"lowerThreshold" "0.15"
 	"onlyVelocityCheck" "0"
 	"origin" "0 0 20"
-	"parentname" "Sprungkubus"
+	"parentname" "Kubus"
 	"physicsSpeed" "$PhysicsSpeed"
 	"playerSpeed" "$PlayerSpeed"
-	"solid" "6"
 	"spawnflags" "4111"
 	"StartDisabled" "0"
 	"targetname" "Katapult"
@@ -519,14 +478,13 @@ entity
 {
 	"id" "347"
 	"classname" "filter_activator_name"
-	"angles" "0 0 0"
-	"filtername" "box"
+	"filtername" "Kubus"
 	"Negated" "1"
 	"targetname" "Kubus_Filter"
-	"origin" "0 -32 0"
+	"origin" "0 0 0"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2500]"

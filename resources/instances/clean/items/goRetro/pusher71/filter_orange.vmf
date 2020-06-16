@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "5"
+	"mapversion" "3"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "3"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -31,10 +31,11 @@ world
 entity
 {
 	"id" "4"
-	"classname" "filter_activator_name"
+	"classname" "filter_activator_model"
 	"angles" "0 0 0"
-	"filtername" "!player_orange"
-	"Negated" "1"
+	"model" "models/player/ballbot/ballbot.mdl"
+	"Negated" "Allow entities that match criteria"
+	"skin" "0"
 	"targetname" "@filter_orange"
 	"origin" "0 0 0"
 	editor
