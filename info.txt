@@ -215,17 +215,17 @@
 	}
 }
 
-"Item"
-{
-	"ID" "ITEM_FAITH_CUBE"
-	"Version"
-	{
-		"Styles"
-		{
-			"ANY_STYLE" "faith_cube"
-		}
-	}
-}
+//"Item"
+//{
+//	"ID" "ITEM_FAITH_CUBE"
+//	"Version"
+//	{
+//		"Styles"
+//		{
+//			"ANY_STYLE" "faith_cube"
+//		}
+//	}
+// }
 
 "Item"
 {
