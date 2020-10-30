@@ -338,7 +338,7 @@ entity
 	"classname" "npc_portal_turret_floor"
 	"angles" "0 180 0"
 	"DamageForce" "1"
-	"model" "models/BEE2/props_underground/turret_skeleton.mdl"
+	"model" "models/bee2/props_p1/turret_01.mdl"
 	"ModelIndex" "1"
 	"PickupEnabled" "1"
 	"spawnflags" "0"
