@@ -1,0 +1,68 @@
+"Item"
+	{
+		"ItemClass"	"ItemTurret"
+		"Type"		"ITEM_LASER_CUBE"
+		"Editor"
+		{
+			"SubType"
+			{
+				"Name"			"Tank"
+				"Model"
+				{
+					"ModelName"			"cubelaser.3ds"
+				}
+				"Palette"
+				{
+					"Tooltip"		"TANK"
+					"Image"			"palette/clean/lasercube.png"
+					"Position"		"1 0 0"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceCube"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+					"SOUND_DELETED"					"P2Editor.RemoveCube"
+				}
+			}
+			"MovementHandle"		"HANDLE_36_DIRECTIONS"
+			"InvalidSurface"		"CEILING WALL"
+		}
+		"Exporting"
+		{
+			"Instances"
+			{
+				"0"
+				{
+					"Name"			"instances/bee2/clean/items/goRetro/tank.vmf"
+					"EntityCount"	"2"
+				}
+			}
+
+			"TargetName"		"portalcube"
+			"Offset"		"64 64 64"
+			"OccupiedVoxels"
+			{
+				"Voxel"
+				{
+					"Pos"		"0 0 0"
+					"Surface"
+					{
+						"Pos"	"1 1 0"
+					}
+					"Surface"
+					{
+						"Pos"	"1 2 0"
+					}
+					"Surface"
+					{
+						"Pos"	"2 1 0"
+					}
+					"Surface"
+					{
+						"Pos"	"2 2 0"
+					}
+				}
+			}
+		}
+	}

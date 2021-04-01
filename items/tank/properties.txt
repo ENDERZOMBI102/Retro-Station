@@ -1,0 +1,15 @@
+"Properties"
+{
+	"Authors" "ENDERZOMBI102"
+	"Tags" "Portal 2;Hazards"
+	"Description"
+	{
+		"" "A Tank that shoots the player."
+	}
+	"infoURL" ""
+	"ent_count" "2"
+	"Icon"
+	{
+		"0" "clean/tank.png"
+	}
+}
