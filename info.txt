@@ -5,7 +5,7 @@
 {
 	"Package" "VALVE_TEST_ELEM"
 	"Package" "BEE2_CLEAN_STYLE"
-	"Package" "LAUTARO_GRATES"
+	"Package" "BEE2_BARRIER_VARIANTS"
 	"Package" "BEE2_PORTAL_1"
 	"Package" "BEE2_CUBE_COLORISER"
 	"Package" "BEEMOD_1"
